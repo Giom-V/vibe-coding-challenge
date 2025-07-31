@@ -28,6 +28,7 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 *   **Description:** An app that provides audio guides for family holidays.
 *   **AI Tools Used:** [AI Studio](ai.studio/apps) and [Gemini](https://deepmind.google/models/gemini/).
+*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)**
 *   **Project folder:** [audio_guide](./audio_guide/)
 
 ---
