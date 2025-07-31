@@ -4,7 +4,7 @@
 
 I was travelling in Italy with my wife and daughter and was using a lot Deep-research + Podcast in the [Gemini app](gemini.google.com) to generate podcast about the cities we were about to visit. It works really well but it's a lot of manual steps (write the prompt, wait fot the deep-research plan, approve it, wait for deep-research, ask for a podcast overview, wait for it...), so I figured I would try to make it myself using AI Studio, and here it is.
 
-## **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)
+## **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)**
 
 ## Initial Prompt
 
