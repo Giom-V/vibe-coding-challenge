@@ -34,3 +34,9 @@ Projects are organized by week in reverse chronological order. Each project fold
 ---
 
 *Coming soon...*
+
+---
+
+## Tips
+
+* Always ask the model to create a very modular app with dedicated files for each functionality or module (or to list the prompts so it's easy for your to find and manually update them). Since most of the time the AI tries to completely rewrites the files it will make it quicker if it only has to rewrite a small one instead of a very long one when you only want to update something simple.
