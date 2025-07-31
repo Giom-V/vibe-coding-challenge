@@ -1,10 +1,10 @@
-# AI-Coded App Challenge 2025
+# Vibe-Coded App Challenge 2025
 
-Welcome to my "AI-Coded App Challenge 2025"! This repository documents my journey of creating and publishing an application each week, primarily using AI-powered coding assistants.
+Welcome to my "Vibe-Coded App Challenge 2025"! This repository documents my journey of creating and publishing an application each week, primarily using AI-powered coding assistants.
 
 ## What is "Vibe Coding"?
 
-"Vibe coding" is a term I use to describe the process of building software in close collaboration with AI. It's a partnership where I provide the high-level vision, the "vibe," and the AI helps with the implementation details. This could involve generating boilerplate code, suggesting algorithms, debugging complex issues, or even designing UI components. The goal is to stay in the creative flow and focus on the overall feel and functionality of the application, while letting the AI handle the more tedious aspects of coding.
+"Vibe coding" is a new term usedto describe the process of building software in close collaboration with AI. It's a partnership where I provide the high-level vision, the "vibe" and the AI helps with the implementation details. This could involve generating boilerplate code, suggesting algorithms, debugging complex issues, or even designing UI components. The goal is to stay in the creative flow and focus on the overall feel and functionality of the application, while letting the AI handle the more tedious aspects of coding.
 
 ## The Challenge
 
@@ -16,6 +16,7 @@ This experiment aims to:
 *   Discover best practices for collaborating with AI on software projects.
 *   Build a diverse portfolio of small, functional applications.
 *   Share my findings and experiences with the developer community.
+*   Prove how easy it is to translate your ideas into proper apps.
 
 ## Projects
 
@@ -23,11 +24,11 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 ---
 
-### Audio Guide for Family Holidays
+### Aug 1st: Audio Guide for Family Holidays
 
 *   **Description:** An app that provides audio guides for family holidays.
-*   **AI Tools Used:** [e.g., Gemini, Claude 3]
-*   **Link:** [Link to the project folder](./audio_guide/)
+*   **AI Tools Used:** [AI Studio](ai.studio/apps) and Gemini
+*   **Project folder:** [audio_guide](./audio_guide/)
 
 ---
 
