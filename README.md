@@ -33,7 +33,7 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 ---
 
-*Coming soon...*
+*More coming soon...*
 
 ---
 
