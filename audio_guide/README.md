@@ -8,7 +8,7 @@ I was travelling in Italy with my wife and daughter and was using a lot Deep-res
 
 ## Initial Prompt
 
-"Make an app where I can select a language
+"Make an app in French where I can input something I'm about to visit (a city, a museum), and it will generate a transcript of a discussion between Claire and Guillaume, explaining to their daughter, Aurore, who is only listening, not actively talking, about what they are about to visit."
 
 ## Time Spent
 
