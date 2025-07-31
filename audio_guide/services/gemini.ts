@@ -13,7 +13,7 @@ const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
  */
 export const generateStoryContent = async (prompt: string): Promise<{ story: string, sources: any[] | undefined }> => {
     const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-2.5-pro',
         contents: prompt,
         config: {
             tools: [{googleSearch: {}}],
