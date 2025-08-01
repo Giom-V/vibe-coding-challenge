@@ -22,12 +22,16 @@ This experiment aims to:
 
 Projects are organized by week in reverse chronological order. Each project folder contains the complete source code and a dedicated `README.md` file with more details about the application, the development process, and the AI tools used.
 
+| App | Link to app | Code |
+| --- | ----------- | ---- |
+| Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)** | [audio_guide](./audio_guide/) |
+
 ---
 
 ### Aug 1st: Audio Guide for Family Holidays
 
 *   **Description:** An app that provides audio guides for family holidays.
-*   **AI Tools Used:** [AI Studio](ai.studio/apps) and [Gemini](https://deepmind.google/models/gemini/).
+*   **AI Tools Used:** [AI Studio](ai.studio/apps) and [Gemini TTS](https://deepmind.google/models/gemini/).
 *   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)**
 *   **Project folder:** [audio_guide](./audio_guide/)
 
