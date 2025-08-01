@@ -6,7 +6,7 @@ import { Duration } from '../types';
 
 export const useStoryGenerator = () => {
     const [story, setStory] = useState('');
-    const [sources, setSources] = useState<any[]>([]);
+    const [sources, setSources] = useState<{ web: { uri: string; title: string; } }[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
