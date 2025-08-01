@@ -6,6 +6,8 @@ Welcome to my "Vibe-Coded App Challenge 2025"! This repository documents my jour
 
 "Vibe coding" is a new term used to describe the process of building software in close collaboration with AI. It's a partnership where I provide the high-level vision, the "vibe" and the AI helps with the implementation details. This could involve generating boilerplate code, suggesting algorithms, debugging complex issues, or even designing UI components. The goal is to stay in the creative flow and focus on the overall feel and functionality of the application, while letting the AI handle the more tedious aspects of coding.
 
+Of course, the maintenance of this repo is also going to be AI-powered, with the help of [Jules](jules.google.com).
+
 ## The Challenge
 
 The goal of this challenge is to explore the capabilities of modern AI in software development. Each week, I will tackle a new project, leveraging tools like Google's AI Studio, Gemini Code Assist, and other LLMs such as Claude to generate, debug, and refactor code.
