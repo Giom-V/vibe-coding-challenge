@@ -40,3 +40,11 @@ AI Studio on the phone is not a good interface for vibe coding. Next time I'll m
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## To Do
+
+I don't think I'll ever have the time to actually finish to polish the app (we all know it will enver be finished) but here are some ideas to push it further:
+* Add better deep-reserach capabilities
+* Select male/female voices for the right participants
+* Fine-tune the prompts (for ex. at the moment it ignores the already visited places while I would like it to create bridges with what we're previously seen)
+* Upload the generated podcast in a Youtube music playlist
