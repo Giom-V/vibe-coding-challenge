@@ -46,5 +46,6 @@ Projects are organized by week in reverse chronological order. Each project fold
 ## Tips
 
 * Be patient (or do something at the same time like reading a book, catching-up with emails, or just play a video game, the generation take a couple of minutes each time.
+* The longer and more detailled the prompt is, the better the result be, but personally I usually prefer to take my time and work iteratively.
 * If you're not in a rush, fix one thing at a time instead of sending mutltiple problems to the model at the same time (unless you are certain they are closely related).
 * Always ask the model to create a very modular app with dedicated files for each functionality or module (or to list the prompts so it's easy for you to find and manually update them). Since most of the time the AI tries to completely rewrite the files, it will be quicker if it only has to rewrite a small one instead of a very long one when you only want to update something simple.
