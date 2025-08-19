@@ -1,5 +1,4 @@
 
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Header } from './components/Header';
 import { ExperienceSection } from './components/ExperienceSection';
@@ -19,7 +18,6 @@ import { LocaleProvider, useLocale } from './context/LocaleContext';
 
 import { Profile, Experience, Education, Talk, ModalInfo, TooltipTerm, Skill, Value } from './types';
 import { findTalks, getRelatedLinks, translateJsonData, analyzeJobRelevance } from './services/geminiService';
-import { logInteraction } from './services/trackingService';
 
 /**
  * A self-contained notification component for displaying errors and success messages.
@@ -170,9 +168,10 @@ const App: React.FC = () => {
 
     useEffect(() => {
         const loadAppData = async () => {
-            const [profileRes, experienceRes, educationRes, talksRes, localeRes, tooltipRes] = await Promise.all([
+            const [profileRes, experienceRes, educationRes, talksRes, localeRes, tooltipRes, valuesRes] = await Promise.all([
                 fetch('./data/profile.json'), fetch('./data/experience.json'), fetch('./data/education.json'),
-                fetch('./data/talks.json'), fetch('./locales/en.json'), fetch('./data/tooltips.json')
+                fetch('./data/talks.json'), fetch('./locales/en.json'), fetch('./data/tooltips.json'),
+                fetch('./data/values.json')
             ]);
             let profileData: Profile = await profileRes.json();
             const experienceData: Experience[] = await experienceRes.json();
@@ -180,8 +179,14 @@ const App: React.FC = () => {
             const initialTalksData: Talk[] = await talksRes.json();
             const localeData = await localeRes.json();
             const tooltipData: TooltipTerm[] = await tooltipRes.json();
+            const valuesData: Value[] = await valuesRes.json();
             
-            profileData = { ...profileData, images: profileData.images.map(formatGoogleDriveUrl), conferenceImages: (profileData.conferenceImages || []).map(formatGoogleDriveUrl) };
+            profileData = {
+                ...profileData,
+                values: valuesData,
+                images: profileData.images.map(formatGoogleDriveUrl),
+                conferenceImages: (profileData.conferenceImages || []).map(formatGoogleDriveUrl)
+            };
 
             originalData.current = { profile: profileData, experiences: experienceData, education: educationData, talks: initialTalksData, tooltips: tooltipData, localeStrings: localeData };
             
@@ -225,9 +230,51 @@ const App: React.FC = () => {
         }
 
         setIsTranslating(true);
+
+        // Use static files for French translation
+        if (language.toLowerCase() === 'french') {
+            try {
+                const [frLocaleRes, frProfileRes, frExpRes, frEduRes, frTalksRes, frTooltipsRes, frValuesRes] = await Promise.all([
+                    fetch('./locales/fr.json'), fetch('./data/fr/profile.json'), fetch('./data/fr/experience.json'),
+                    fetch('./data/fr/education.json'), fetch('./data/fr/talks.json'), fetch('./data/fr/tooltips.json'),
+                    fetch('./data/fr/values.json')
+                ]);
+
+                const frLocaleData = await frLocaleRes.json();
+                const frProfileData = await frProfileRes.json();
+                const frExperienceData = await frExpRes.json();
+                const frEducationData = await frEduRes.json();
+                const frTalksData = await frTalksRes.json();
+                const frTooltipsData = await frTooltipsRes.json();
+                const frValuesData = await frValuesRes.json();
+
+                // Reconstruct state with French data, preserving non-translated parts
+                const newProfile = { ...oProfile, ...frProfileData, values: frValuesData };
+                const newExperiences = oExperiences.map((exp, i) => ({ ...exp, ...frExperienceData[i] }));
+                const newEducation = oEducation.map((edu, i) => ({ ...edu, ...frEducationData[i] }));
+                const newTalks = oTalks.map((talk, i) => ({ ...talk, ...frTalksData[i] }));
+                const newTooltips = oTooltips.map((tooltip, i) => ({ ...tooltip, ...frTooltipsData[i] }));
+                
+                setLocaleStrings(frLocaleData);
+                setProfile(newProfile);
+                setExperiences(newExperiences);
+                setEducation(newEducation);
+                setTalks(newTalks);
+                setTooltips(newTooltips);
+
+            } catch (error) {
+                 console.error("Failed to load French translation files:", error);
+                 const { t } = useLocale();
+                 const errorMessage = t('app.translation_error', { language });
+                 setNotification({ message: errorMessage, type: 'error' });
+            } finally {
+                setIsTranslating(false);
+            }
+            return;
+        }
+
+        // Fallback to Gemini for other languages
         try {
-            // Only include fields with user-facing text that needs translation.
-            // Exclude keys, technical terms, URLs, icon names, etc.
             const contentToTranslate = {
                 ui: oLocaleStrings,
                 tooltips: oTooltips.map(t => ({ definition: t.definition })),
@@ -262,23 +309,15 @@ const App: React.FC = () => {
             };
 
             const translatedContent = await translateJsonData(contentToTranslate, language);
-            
-            // Reconstruct the state with translated content, preserving non-translated data
             const newProfile = JSON.parse(JSON.stringify(oProfile));
             newProfile.title = translatedContent.profile.title;
             newProfile.bio = translatedContent.profile.bio;
             newProfile.interests.sports = translatedContent.profile.interests.sports;
             newProfile.interests.travelling = translatedContent.profile.interests.travelling;
-            newProfile.interests.other.forEach((item: any, index: number) => {
-                item.name = translatedContent.profile.interests.other[index].name;
-            });
-            newProfile.certifications.forEach((cert: any, index: number) => {
-                cert.name = translatedContent.profile.certifications[index].name;
-            });
+            newProfile.interests.other.forEach((item: any, index: number) => { item.name = translatedContent.profile.interests.other[index].name; });
+            newProfile.certifications.forEach((cert: any, index: number) => { cert.name = translatedContent.profile.certifications[index].name; });
             if (newProfile.values) {
-                newProfile.values.forEach((val: any, index: number) => {
-                    val.summary = translatedContent.profile.values[index].summary;
-                });
+                newProfile.values.forEach((val: any, index: number) => { val.summary = translatedContent.profile.values[index].summary; });
             }
 
             const newExperiences = oExperiences.map((exp, i) => ({ ...exp, ...translatedContent.experiences[i] }));

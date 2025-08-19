@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Transparency",
+    "icon": "fa-solid fa-eye",
+    "summary": "I believe in open communication and sharing information clearly, both the good and the bad. It builds trust and leads to better outcomes.",
+    "details": "Example of transparency: While working at Ubisoft, I often had to hide information from my team, including the fact that DLCs were being developed. Everybody already knew, but I still wasn't allowed to confirm it. I believe this kind of secrecy is disrespectful to a team and erodes trust for no reason."
+  },
+  {
+    "name": "Teamwork",
+    "icon": "fa-solid fa-users",
+    "summary": "Success is a team sport. I thrive on collaboration, valuing every team member's contribution to achieve a common goal.",
+    "details": "Example of teamwork: On 'Immortals Fenyx Rising', I championed reorganizing teams to be multidisciplinary. This broke down silos between artists, programmers, and designers, leading to a more cohesive and creative gameplay experience. Their job was not to create animations or FX, but to create monsters together. We solved problems faster because everyone felt ownership of the final product. I also made a point to be seen as part of the team, not a distant boss, by doing 'gemba walks'—taking time to talk with people at their desks. This gave me a quick understanding of their work and its status, by showing genuine interest in them rather than just monitoring dashboards."
+  },
+  {
+    "name": "Trust",
+    "icon": "fa-solid fa-handshake",
+    "summary": "Trust is the foundation of any great team. I empower my colleagues by trusting their expertise and giving them the autonomy to excel.",
+    "details": "Example of trust: On Immortals Fenyx Rising, I was leading so many people that micro-management was not an option. I recruited two PMs that I trained and trusted to make the best decisions and report to me in case of a problem. It wasn't without friction, but I believe that is part of the reason we were able to release that game on time (even though it was later delayed). I'm also very proud that they have both since become producers on their own games."
+  },
+  {
+    "name": "Sensible Processes",
+    "icon": "fa-solid fa-sitemap",
+    "summary": "Processes should serve the team, not the other way around. I advocate for agile, lightweight processes that remove obstacles and accelerate progress.",
+    "details": "Example of sensible processes: While at Ubisoft, I introduced processes primarily to increase visibility (e.g., 'do this so I can see it in my dashboards and won't have to ask for status updates'). I always designed them with the developer experience in mind so they wouldn't become a burden. Processes should not be detrimental to team velocity or fun at work. On the contrary, I made many small improvements to save them time, such as 'assign to me and set in progress' buttons in Jira."
+  },
+  {
+    "name": "Continuous Improvement",
+    "icon": "fa-solid fa-arrow-trend-up",
+    "summary": "I am a strong believer in a growth mindset. I continuously seek feedback and look for ways to refine my skills, our processes, and our products.",
+    "details": "Example of continuous improvement: The Gemini Cookbook on GitHub was a good resource, but I saw the potential for it to be much better. I initiated a complete reorganization, improved the code examples, and actively sought community feedback. This iterative process of improvement led to it becoming the #1 trending repository, demonstrating the power of continuous refinement."
+  },
+  {
+    "name": "Feedback",
+    "icon": "fa-solid fa-comments",
+    "summary": "I view candid and constructive feedback as a gift essential for growth. Openly addressing challenges prevents them from escalating and helps everyone improve.",
+    "details": "Example of feedback: While working on Gemini, I had a new manager who was jumping into my projects and imposing decisions, which was frustrating. I saw that my colleagues were also frustrated, but no one was saying anything. I initiated an open discussion where I explained our frustrations. He listened and shared his own challenges, including pressure from his manager. We found common ground and, after that, our collaboration improved significantly."
+  },
+  {
+    "name": "Fun",
+    "icon": "fa-solid fa-gamepad",
+    "summary": "A positive and enjoyable work environment is key to creativity and productivity. We spend a lot of time at work, so we might as well have fun doing it!",
+    "details": "Example of fun: While the work was intense at Ubisoft, I made sure to organize team events and celebrate small wins like good sprints. This created a positive atmosphere where developers felt comfortable sharing ideas and weren't afraid to experiment, which is crucial when working in a stressful environment with hard deadlines."
+  }
+]

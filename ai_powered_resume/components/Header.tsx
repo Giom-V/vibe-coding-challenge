@@ -1,12 +1,8 @@
 
-
-
-
 import React, { useState, useEffect } from 'react';
 import { Profile, TooltipTerm } from '../types';
 import { Icon } from './Icon';
 import { generateAudioOverview } from '../services/geminiService';
-import { logInteraction } from '../services/trackingService';
 import { AudioPlayer } from './AudioPlayer';
 import { useLocale } from '../context/LocaleContext';
 import { TextWithTooltips } from './TextWithTooltips';
@@ -57,12 +53,6 @@ export const Header: React.FC<HeaderProps> = ({ profile, onImageClick, tooltipDa
             setAudioError(errorMessage);
         } finally {
             setIsGeneratingAudio(false);
-            logInteraction({
-                type: 'audio_overview',
-                source: 'header_audio',
-                prompt,
-                response: script
-            });
         }
     };
 

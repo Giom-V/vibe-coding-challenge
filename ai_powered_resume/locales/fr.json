@@ -1,0 +1,128 @@
+
+{
+  "app": {
+    "loading": "Chargement du CV interactif...",
+    "translating": "Traduction du contenu...",
+    "translation_error": "Désolé, je n'ai pas pu traduire en {language}. Veuillez réessayer."
+  },
+  "header": {
+    "company_at": "chez {company}",
+    "audio_overview_title": "Générer un aperçu audio",
+    "select_focus_overall": "Carrière globale",
+    "select_focus_genai": "Expertise en IA Générative",
+    "select_focus_pm": "Gestion de Produit",
+    "select_focus_videogame": "Industrie du Jeu Vidéo",
+    "generate_button": "Générer",
+    "generating_button": "Génération..."
+  },
+  "sections": {
+    "experience": "Expériences",
+    "talks": "Conférences et Ateliers",
+    "skills": "Compétences",
+    "education": "Formation",
+    "interests": "Centres d'intérêt",
+    "certifications": "Certifications",
+    "values": "Mes Valeurs"
+  },
+  "experience_section": {
+    "view_compact": "Compacte",
+    "view_detailed": "Détaillée",
+    "related_links_title": "Liens pertinents (via Google Search) :",
+    "ask_button": "Demander des détails à Gemini",
+    "see_more_details": "Voir plus de détails",
+    "ai_relevance_summary_title": "Résumé de pertinence par l'IA"
+  },
+  "talks_section": {
+    "upcoming": "À venir",
+    "past": "Passées",
+    "view_details": "Voir les détails"
+  },
+  "skills_section": {
+    "technical": "Techniques",
+    "languages": "Langues",
+    "management": "Gestion",
+    "ai_relevance_summary_title": "Résumé de pertinence par l'IA"
+  },
+  "education_section": {
+    "ask_button": "Demander à Gemini",
+    "see_more_details": "Voir plus de détails",
+    "ai_relevance_summary_title": "Résumé de pertinence par l'IA"
+  },
+  "values_section": {
+    "ask_button": "En savoir plus",
+    "ai_relevance_summary_title": "Résumé de pertinence par l'IA"
+  },
+  "interests_section": {
+    "sports": "Sports",
+    "travelling": "Voyages",
+    "other": "Autres"
+  },
+  "language_switcher": {
+    "placeholder": "Langue...",
+    "en": "EN",
+    "fr": "FR"
+  },
+  "global_ask_button": {
+    "label": "Question sur Guillaume"
+  },
+  "tailor_resume": {
+    "button_label": "Adapter le CV à un poste",
+    "reset_button_label": "Réinitialiser",
+    "modal_title": "Adapter le CV avec l'IA",
+    "modal_intro": "Collez une description de poste ci-dessous pour voir comment l'expérience de Guillaume correspond au rôle.",
+    "modal_placeholder": "ex : Recherche d'un Senior Developer Advocate avec une expérience en IA générative, Python, et engagement communautaire...",
+    "modal_button_analyze": "Analyser et Adapter le CV",
+    "modal_button_analyzing": "Analyse en cours..."
+  },
+  "tooltip": {
+    "tell_me_more": "En savoir plus"
+  },
+  "modal": {
+    "suggestions": "Suggestions",
+    "or": "OU",
+    "custom_question_label": "Posez votre propre question",
+    "custom_question_placeholder": "ex : Comment Guillaume a-t-il géré les défis sur le projet Stadia ?",
+    "ask_button": "Demander à Gemini",
+    "thinking": "Gemini réfléchit...",
+    "you_asked": "Vous avez demandé :",
+    "about_role_at": "À propos du rôle chez {company}",
+    "about_education_at": "À propos de ma formation à {institution}",
+    "ask_anything_title": "Posez n'importe quelle question sur le profil de Guillaume",
+    "about_tooltip_title": "À propos de : {term}",
+    "about_value_title": "À propos de ma valeur : {value}"
+  },
+  "prompts": {
+    "aist_research_details": "Dites-m'en plus sur les recherches de Guillaume à l'AIST.",
+    "business_dev_role": "Quel était le rôle de Guillaume en développement commercial ?",
+    "cdi_philosophy": "Quelle est la philosophie d'enseignement du CDI ?",
+    "cdi_learnings": "Qu'est-ce que Guillaume a appris au Collège des Ingénieurs ?",
+    "contribution_to_matter": "Comment Guillaume a-t-il contribué à l'écosystème Matter ?",
+    "describe_eap_role": "Décrivez le rôle de Guillaume dans le Programme d'Accès Anticipé.",
+    "describe_fellow_program": "Décrivez le programme 'Fellow' que Guillaume a suivi.",
+    "describe_managed_team": "Décrivez l'équipe que Guillaume a dirigée.",
+    "describe_mva_program": "Décrivez le programme de Master MVA que Guillaume a terminé.",
+    "ens_entry_difficulty": "Est-il difficile d'entrer à l'ENS ?",
+    "ens_famous_for": "Pourquoi l'ENS est-elle réputée en informatique ?",
+    "experience_with": "Quelle expérience Guillaume a-t-il avec...",
+    "explain_role": "Expliquez ce que fait un \"{role}\".",
+    "good_fit_for": "Guillaume serait-il un bon candidat pour le rôle de...",
+    "impact_on_cookbook": "Quel a été l'impact de Guillaume sur le Gemini Cookbook ?",
+    "leadership_style_on_team": "Quel était le style de leadership de Guillaume dans cette équipe ?",
+    "manage_partner_relations": "Comment Guillaume gérait-il les relations avec les partenaires ?",
+    "no_change_porting": "Dites-m'en plus sur l'initiative 'portage sans modification' dirigée par Guillaume.",
+    "production_methodologies": "Quelles méthodologies de production ont été utilisées sur le projet de Guillaume ?",
+    "remote_work": "Guillaume est-il ouvert au télétravail ?",
+    "role_in_game_launches": "Quel a été le rôle de Guillaume dans les lancements de jeux ?",
+    "technical_support_function": "Expliquez la fonction de support technique de Guillaume.",
+    "tell_about_workshops": "Parlez-moi des ateliers animés par Guillaume.",
+    "value_example": "Donnez un exemple de la manière dont Guillaume a démontré la valeur '{value}'.",
+    "value_importance": "Pourquoi la valeur '{value}' est-elle importante pour Guillaume ?",
+    "value_in_workplace": "Comment Guillaume applique-t-il la valeur '{value}' dans un environnement de travail ?",
+    "what_does_degree_cover": "Que couvre généralement un diplôme de {degree} ?",
+    "what_is_company": "Qu'est-ce que {company} et que font-ils ?",
+    "what_is_grande_ecole": "Qu'est-ce qu'une 'grande école' française ?",
+    "what_is_preparatory_class": "Qu'est-ce qu'une 'classe préparatoire' française ?",
+    "what_is_institution_known_for": "Pour quoi {institution} est-elle connue ?",
+    "why_hire": "Pourquoi devrais-je embaucher Guillaume ?"
+  }
+}

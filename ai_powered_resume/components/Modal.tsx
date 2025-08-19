@@ -1,9 +1,7 @@
 
-
 import React, { useState, useEffect, useRef } from 'react';
 import { ModalInfo, Prompt } from '../types';
 import { getResumeDetails, getGeneralInfo } from '../services/geminiService';
-import { logInteraction } from '../services/trackingService';
 import { Icon } from './Icon';
 import { useLocale } from '../context/LocaleContext';
 
@@ -48,13 +46,6 @@ export const Modal: React.FC<ModalProps> = ({ info, onClose }) => {
             setResponse(result);
         } finally {
             setIsLoading(false);
-            // Log interaction after getting the response
-            logInteraction({
-                type: 'question',
-                source,
-                prompt: promptText,
-                response: result,
-            });
         }
     }
 

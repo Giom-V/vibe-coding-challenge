@@ -1,0 +1,32 @@
+
+[
+  {
+    "degree": "MBA",
+    "summary": "Formation en management, leadership, finance et entrepreneuriat dans une classe internationale avec des professeurs de haut niveau.",
+    "description": [
+      "Formation intensive en management, leadership, finance et entrepreneuriat.",
+      "Environnement multiculturel avec 3 promotions d'Allemagne, d'Italie et de France."
+    ],
+    "longDescription": "Au Collège des Ingénieurs (CDI), j'ai suivi un programme MBA unique, à temps plein et rémunéré, conçu pour les ingénieurs et les scientifiques. En tant que 'Fellow', j'ai mené une mission de conseil stratégique au sein d'une entreprise partenaire tout en suivant simultanément des séminaires de formation en management de haut niveau. Cette approche d'apprentissage par l'action a été inestimable pour développer mes compétences à naviguer dans des défis technologiques et commerciaux complexes."
+  },
+  {
+    "degree": "Diplômes de Master",
+    "summary": "A étudié l'informatique, l'économie et les mathématiques financières, y compris le prestigieux Master MVA, et a participé à diverses associations étudiantes.",
+    "description": [
+      "A complété le Master Parisien de Recherche en Informatique (MPRI).",
+      "A obtenu un Master en Mathématiques, Vision et Apprentissage (MVA).",
+      "A obtenu un Master 1 en Économie (Analyse et Politique Économique).",
+      "A dirigé plusieurs associations étudiantes, en tant que Président du bureau des élèves, rédacteur en chef du journal, gérant du bar des étudiants et vice-président du festival de la bande dessinée.",
+      "A siégé au conseil d'administration en tant que représentant des étudiants."
+    ],
+    "longDescription": "J'ai étudié à l'École Normale Supérieure (ENS), l'une des 'grandes écoles' les plus prestigieuses et sélectives de France, extrêmement réputée pour son excellence en recherche et en éducation. Le programme mettait l'accent sur un enseignement basé sur la recherche, et j'ai eu l'opportunité de poursuivre plusieurs masters avancés, dont le très réputé MVA (Mathématiques, Vision, Apprentissage) au sein de son département d'informatique de classe mondiale."
+  },
+  {
+    "degree": "Classe Préparatoire (CPGE)",
+    "summary": "Cursus scientifique intensif préparant à un concours très compétitif qui permet d'intégrer les Grandes Écoles.",
+    "description": [
+      "Spécialisé en Mathématiques, Physique et Informatique."
+    ],
+    "longDescription": "J'ai suivi les Classes Préparatoires aux Grandes Écoles (CPGE), un programme post-secondaire exigeant de deux ans qui sert de cours préparatoire intensif aux concours d'entrée des 'grandes écoles' françaises. Le programme était axé sur les sciences et les mathématiques avancées, ce qui a constitué la solide base théorique de mes études futures."
+  }
+]
