@@ -1,4 +1,5 @@
 
+
 export interface Profile {
   name: string;
   title: string;
@@ -9,6 +10,8 @@ export interface Profile {
   contact: {
     email: string;
     phone: string;
+    linkedin?: string;
+    github?: string;
   };
   details: {
     age: string;

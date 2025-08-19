@@ -1,6 +1,7 @@
 
 
 
+
 import React, { useState, useEffect } from 'react';
 import { Profile, TooltipTerm } from '../types';
 import { Icon } from './Icon';
@@ -34,18 +35,8 @@ export const Header: React.FC<HeaderProps> = ({ profile, onImageClick, tooltipDa
         }
     }, [profile.images]);
     
-    const audioFocusUntranslated = (focusKey: string): string => {
-        const mapping: { [key: string]: string } = {
-            [t('header.select_focus_overall')]: 'Overall Career',
-            [t('header.select_focus_genai')]: 'Generative AI Expertise',
-            [t('header.select_focus_pm')]: 'Product Management',
-            [t('header.select_focus_videogame')]: 'Video Game Industry'
-        };
-        return mapping[focusKey] || 'Overall Career';
-    };
-    
     const handleGenerateAudio = async () => {
-        const focus = audioFocusUntranslated(audioFocus);
+        const focus = audioFocus; // Use state directly
         const prompt = `Focus: ${focus}`;
 
         setIsGeneratingAudio(true);
@@ -94,7 +85,20 @@ export const Header: React.FC<HeaderProps> = ({ profile, onImageClick, tooltipDa
                     />
                     <h1 className="text-3xl font-bold text-white">{profile.name}</h1>
                     <h2 className="text-xl font-light text-cyan-400">{profile.title}</h2>
-                    <p className="text-sm text-slate-400">{t('header.company_at', { company: profile.company })}</p>
+                    <p className="text-sm text-slate-400 mb-4">{t('header.company_at', { company: profile.company })}</p>
+
+                    <div className="flex justify-center gap-4">
+                        {profile.contact.linkedin && (
+                            <a href={profile.contact.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="text-slate-400 hover:text-white transition-colors">
+                                <Icon name="fa-brands fa-linkedin" className="text-2xl" />
+                            </a>
+                        )}
+                        {profile.contact.github && (
+                            <a href={profile.contact.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="text-slate-400 hover:text-white transition-colors">
+                                <Icon name="fa-brands fa-github" className="text-2xl" />
+                            </a>
+                        )}
+                    </div>
                 </div>
 
                 <div className="mt-8 text-left space-y-4 text-slate-300">
@@ -113,10 +117,10 @@ export const Header: React.FC<HeaderProps> = ({ profile, onImageClick, tooltipDa
                           onChange={(e) => setAutoFocus(e.target.value)}
                           className="bg-slate-700 border border-slate-600 rounded-md px-3 py-2 text-white flex-grow focus:outline-none focus:ring-2 focus:ring-cyan-500"
                         >
-                            <option>{t('header.select_focus_overall')}</option>
-                            <option>{t('header.select_focus_genai')}</option>
-                            <option>{t('header.select_focus_pm')}</option>
-                            <option>{t('header.select_focus_videogame')}</option>
+                            <option value="Overall Career">{t('header.select_focus_overall')}</option>
+                            <option value="Generative AI Expertise">{t('header.select_focus_genai')}</option>
+                            <option value="Product Management">{t('header.select_focus_pm')}</option>
+                            <option value="Video Game Industry">{t('header.select_focus_videogame')}</option>
                         </select>
                         <button 
                           onClick={() => handleGenerateAudio()}

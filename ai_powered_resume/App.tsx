@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Header } from './components/Header';
 import { ExperienceSection } from './components/ExperienceSection';
@@ -19,6 +20,52 @@ import { LocaleProvider, useLocale } from './context/LocaleContext';
 import { Profile, Experience, Education, Talk, ModalInfo, TooltipTerm, Skill, Value } from './types';
 import { findTalks, getRelatedLinks, translateJsonData, analyzeJobRelevance } from './services/geminiService';
 import { logInteraction } from './services/trackingService';
+
+/**
+ * A self-contained notification component for displaying errors and success messages.
+ */
+const Notification: React.FC<{
+    message: string;
+    type: 'error' | 'success';
+    onClose: () => void;
+}> = ({ message, type, onClose }) => {
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            onClose();
+        }, 5000); // Auto-dismiss after 5 seconds
+        return () => clearTimeout(timer);
+    }, [onClose]);
+
+    const baseClasses = "fixed top-5 left-1/2 -translate-x-1/2 z-50 p-4 rounded-lg shadow-lg flex items-center gap-4 animate-slide-down max-w-md w-[90%]";
+    const typeClasses = {
+        error: "bg-red-100 border border-red-400 text-red-700",
+        success: "bg-green-100 border border-green-400 text-green-700"
+    };
+    const icon = {
+        error: "fa-solid fa-circle-exclamation",
+        success: "fa-solid fa-check-circle"
+    };
+
+    return (
+        <div className={`${baseClasses} ${typeClasses[type]}`} role="alert">
+            <Icon name={icon[type]} />
+            <span className="flex-grow">{message}</span>
+            <button onClick={onClose} className="ml-auto -mr-1 -my-1 p-1 rounded-md hover:bg-black hover:bg-opacity-10" aria-label="Close notification">
+                <Icon name="fa-solid fa-times" />
+            </button>
+            <style>{`
+                @keyframes slide-down {
+                    from { top: -100px; opacity: 0; }
+                    to { top: 20px; opacity: 1; }
+                }
+                .animate-slide-down {
+                    animation: slide-down 0.5s ease-out forwards;
+                }
+            `}</style>
+        </div>
+    );
+};
+
 
 /**
  * Converts various Google Drive share URLs to a direct, embeddable image URL.
@@ -113,6 +160,7 @@ const App: React.FC = () => {
     const [globalModalInfo, setGlobalModalInfo] = useState<ModalInfo | null>(null);
     const [galleryState, setGalleryState] = useState<{isOpen: boolean; images: string[]; startIndex: number}>({ isOpen: false, images: [], startIndex: 0 });
     const [isTranslating, setIsTranslating] = useState(false);
+    const [notification, setNotification] = useState<{ message: string; type: 'error' | 'success' } | null>(null);
 
     // State for Job Analysis feature
     const [isAnalysisModalOpen, setIsAnalysisModalOpen] = useState(false);
@@ -168,32 +216,88 @@ const App: React.FC = () => {
     }, [profile, experiences, education]);
 
     const handleLanguageChange = async (language: string) => {
-        const { profile: oProfile, experiences: oExperiences, education: oEducation, talks: oTalks, localeStrings: oLocaleStrings } = originalData.current;
+        const { profile: oProfile, experiences: oExperiences, education: oEducation, talks: oTalks, localeStrings: oLocaleStrings, tooltips: oTooltips } = originalData.current;
         if (!oProfile || !oLocaleStrings) return;
 
         if (language.toLowerCase() === 'english') {
-            setProfile(oProfile); setExperiences(oExperiences); setEducation(oEducation); setTalks(oTalks); setLocaleStrings(oLocaleStrings);
+            setProfile(oProfile); setExperiences(oExperiences); setEducation(oEducation); setTalks(oTalks); setLocaleStrings(oLocaleStrings); setTooltips(oTooltips);
             return;
         }
 
         setIsTranslating(true);
         try {
-            const contentToTranslate = { ui: oLocaleStrings, profile: { title: oProfile.title, bio: oProfile.bio, details: oProfile.details, skills: oProfile.skills, interests: oProfile.interests, certifications: oProfile.certifications, values: (oProfile.values || []).map(v => ({ name: v.name, summary: v.summary })) }, experiences: oExperiences.map(e => ({ role: e.role, location: e.location, summary: e.summary, description: e.description, geminiPrompts: e.geminiPrompts, keyAchievements: e.keyAchievements })), education: oEducation.map(e => ({ degree: e.degree, summary: e.summary, description: e.description, geminiPrompts: e.geminiPrompts })), talks: oTalks.map(t => ({ title: t.title, event: t.event, location: t.location })) };
+            // Only include fields with user-facing text that needs translation.
+            // Exclude keys, technical terms, URLs, icon names, etc.
+            const contentToTranslate = {
+                ui: oLocaleStrings,
+                tooltips: oTooltips.map(t => ({ definition: t.definition })),
+                profile: {
+                    title: oProfile.title,
+                    bio: oProfile.bio,
+                    interests: {
+                        sports: oProfile.interests.sports,
+                        travelling: oProfile.interests.travelling,
+                        other: oProfile.interests.other.map(o => ({ name: o.name }))
+                    },
+                    certifications: oProfile.certifications.map(c => ({ name: c.name })),
+                    values: (oProfile.values || []).map(v => ({ summary: v.summary }))
+                },
+                experiences: oExperiences.map(e => ({
+                    role: e.role,
+                    location: e.location,
+                    summary: e.summary,
+                    description: e.description,
+                    keyAchievements: e.keyAchievements
+                })),
+                education: oEducation.map(e => ({
+                    degree: e.degree,
+                    summary: e.summary,
+                    description: e.description
+                })),
+                talks: oTalks.map(t => ({
+                    title: t.title,
+                    event: t.event,
+                    location: t.location
+                }))
+            };
+
             const translatedContent = await translateJsonData(contentToTranslate, language);
             
-            setLocaleStrings(translatedContent.ui);
-            const newProfile = { ...oProfile, ...translatedContent.profile };
-            if (newProfile.values && Array.isArray(newProfile.values) && oProfile.values) {
-                newProfile.values = oProfile.values.map((originalValue, index) => ({ ...originalValue, ...translatedContent.profile.values[index] }));
+            // Reconstruct the state with translated content, preserving non-translated data
+            const newProfile = JSON.parse(JSON.stringify(oProfile));
+            newProfile.title = translatedContent.profile.title;
+            newProfile.bio = translatedContent.profile.bio;
+            newProfile.interests.sports = translatedContent.profile.interests.sports;
+            newProfile.interests.travelling = translatedContent.profile.interests.travelling;
+            newProfile.interests.other.forEach((item: any, index: number) => {
+                item.name = translatedContent.profile.interests.other[index].name;
+            });
+            newProfile.certifications.forEach((cert: any, index: number) => {
+                cert.name = translatedContent.profile.certifications[index].name;
+            });
+            if (newProfile.values) {
+                newProfile.values.forEach((val: any, index: number) => {
+                    val.summary = translatedContent.profile.values[index].summary;
+                });
             }
+
+            const newExperiences = oExperiences.map((exp, i) => ({ ...exp, ...translatedContent.experiences[i] }));
+            const newEducation = oEducation.map((edu, i) => ({ ...edu, ...translatedContent.education[i] }));
+            const newTalks = oTalks.map((talk, i) => ({ ...talk, ...translatedContent.talks[i] }));
+            const newTooltips = oTooltips.map((tooltip, i) => ({ ...tooltip, definition: translatedContent.tooltips[i].definition }));
+
+            setLocaleStrings(translatedContent.ui);
             setProfile(newProfile);
-            setExperiences(oExperiences.map((exp, i) => ({ ...exp, ...translatedContent.experiences[i] })));
-            setEducation(oEducation.map((edu, i) => ({ ...edu, ...translatedContent.education[i] })));
-            setTalks(oTalks.map((talk, i) => ({ ...talk, ...translatedContent.talks[i] })));
+            setExperiences(newExperiences);
+            setEducation(newEducation);
+            setTalks(newTalks);
+            setTooltips(newTooltips);
 
         } catch (error) {
             console.error("Failed to translate content:", error);
-            alert(`Sorry, I couldn't translate to ${language}. Please try again.`);
+            const { t } = useLocale();
+            const errorMessage = t('app.translation_error', { language });
+            setNotification({ message: errorMessage, type: 'error' });
         } finally {
             setIsTranslating(false);
         }
@@ -284,7 +388,7 @@ const App: React.FC = () => {
 
         } catch (error) {
             console.error("Failed to analyze job description:", error);
-            alert((error as Error).message);
+            setNotification({ message: (error as Error).message, type: 'error' });
         } finally {
             setIsAnalyzing(false);
         }
@@ -320,6 +424,7 @@ const App: React.FC = () => {
     return (
         <LocaleProvider localeStrings={localeStrings}>
             <div className="min-h-screen font-sans text-gray-800 relative">
+                {notification && <Notification message={notification.message} type={notification.type} onClose={() => setNotification(null)} />}
                 {isTranslating && ( <div className="fixed inset-0 bg-white bg-opacity-80 z-50 flex flex-col items-center justify-center"> <Icon name="fa-solid fa-spinner" className="text-4xl text-cyan-500 animate-spin" /> <p className="mt-4 text-slate-700 text-lg">{localeStrings.app.translating || 'Translating content...'}</p> </div> )}
                 <div className="absolute top-4 right-4 z-10"> <LanguageSwitcher onLanguageChange={handleLanguageChange} isTranslating={isTranslating} /> </div>
                 
