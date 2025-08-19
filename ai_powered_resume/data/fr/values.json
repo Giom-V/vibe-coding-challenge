@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Transparence",
+    "summary": "Je crois en une communication ouverte et au partage clair de l'information, qu'elle soit bonne ou mauvaise. Cela renforce la confiance et mène à de meilleurs résultats.",
+    "details": "Exemple de transparence : En travaillant chez Ubisoft, je devais souvent cacher des informations à mon équipe, y compris le fait que des DLC étaient en développement. Tout le monde le savait déjà, mais je n'avais toujours pas le droit de le confirmer. Je pense que ce type de secret est irrespectueux pour une équipe et érode la confiance sans raison."
+  },
+  {
+    "name": "Travail d'équipe",
+    "summary": "Le succès est un sport d'équipe. Je m'épanouis dans la collaboration, en valorisant la contribution de chaque membre de l'équipe pour atteindre un objectif commun.",
+    "details": "Exemple de travail d'équipe : Sur 'Immortals Fenyx Rising', j'ai préconisé de réorganiser les équipes pour qu'elles soient multidisciplinaires. Cela a brisé les silos entre les artistes, les programmeurs et les concepteurs, menant à une expérience de jeu plus cohérente et créative. Leur travail n'était pas de créer des animations ou des effets spéciaux, mais de créer des monstres ensemble. Nous avons résolu les problèmes plus rapidement parce que tout le monde se sentait propriétaire du produit final. J'ai également tenu à être perçu comme faisant partie de l'équipe, et non comme un patron distant, en faisant des 'gemba walks' — en prenant le temps de parler avec les gens à leur bureau. Cela m'a permis d'avoir une compréhension rapide de leur travail et de son statut, en montrant un intérêt sincère pour eux plutôt qu'en me contentant de surveiller des tableaux de bord."
+  },
+  {
+    "name": "Confiance",
+    "summary": "La confiance est le fondement de toute grande équipe. Je donne de l'autonomie à mes collègues en faisant confiance à leur expertise et en leur donnant les moyens d'exceller.",
+    "details": "Exemple de confiance : Sur Immortals Fenyx Rising, je dirigeais tellement de personnes que la micro-gestion n'était pas une option. J'ai recruté 2 chefs de produit que j'ai formés et je leur ai fait confiance pour prendre les meilleures décisions et me faire un rapport en cas de problème. Cela ne s'est pas fait sans frictions, mais je crois que c'est l'une des raisons pour lesquelles nous avons pu sortir le jeu à temps (même s'il a été retardé par la suite). Et je suis aussi très fier qu'ils soient maintenant tous les deux producteurs de leurs propres jeux."
+  },
+  {
+    "name": "Processus Raisonnables",
+    "summary": "Les processus doivent servir l'équipe, et non l'inverse. Je prône des processus agiles et légers qui éliminent les obstacles et accélèrent le progrès.",
+    "details": "Exemple de processus raisonnables : Chez Ubisoft, j'ai introduit des processus principalement pour augmenter la visibilité (par exemple, 'faites ceci pour que je puisse le voir dans mes tableaux de bord et que je n'aie pas à demander des mises à jour de statut'). Je les ai toujours conçus en pensant à l'expérience des développeurs pour qu'ils ne deviennent pas un fardeau. Les processus ne doivent pas nuire à la vélocité de l'équipe ni au plaisir au travail. Au contraire, j'ai apporté de nombreuses petites améliorations pour leur faire gagner du temps, comme des boutons 'm'assigner et mettre en cours' dans Jira."
+  },
+  {
+    "name": "Amélioration Continue",
+    "summary": "Je crois fermement à l'état d'esprit de croissance. Je recherche continuellement les retours et les moyens d'améliorer mes compétences, nos processus et nos produits.",
+    "details": "Exemple d'amélioration continue : Le Gemini Cookbook sur GitHub était une bonne ressource, mais j'y ai vu le potentiel de faire bien mieux. J'ai initié une réorganisation complète, amélioré les exemples de code et recherché activement les retours de la communauté. Ce processus itératif d'amélioration l'a conduit à devenir le dépôt n°1 des tendances, démontrant la puissance du perfectionnement continu."
+  },
+  {
+    "name": "Feedback",
+    "summary": "Je considère le feedback franc et constructif comme un cadeau essentiel à la croissance. Aborder ouvertement les défis empêche qu'ils ne s'enveniment et aide tout le monde à s'améliorer.",
+    "details": "Exemple de feedback : En travaillant sur Gemini, j'avais un nouveau manager qui s'immisçait dans mes projets et imposait des décisions, ce qui était frustrant. J'ai vu que mes collègues étaient également frustrés, mais personne ne disait rien. J'ai initié une discussion ouverte où j'ai expliqué nos frustrations. Il a écouté et a partagé ses propres défis, y compris la pression de son manager. Nous avons trouvé un terrain d'entente et, après cela, notre collaboration s'est considérablement améliorée."
+  },
+  {
+    "name": "Plaisir",
+    "summary": "Un environnement de travail positif et agréable est la clé de la créativité et de la productivité. Nous passons beaucoup de temps au travail, autant s'amuser en le faisant !",
+    "details": "Exemple de plaisir : Bien que le travail ait été intense chez Ubisoft, je me suis assuré d'organiser des événements d'équipe et de célébrer les petites victoires comme de bons sprints. Cela a créé une atmosphère positive où les développeurs se sentaient à l'aise pour partager des idées et n'avaient pas peur d'expérimenter, ce qui est crucial lorsqu'on travaille dans un environnement stressant avec des délais serrés."
+  }
+]

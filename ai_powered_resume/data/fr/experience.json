@@ -1,0 +1,133 @@
+
+[
+  {
+    "role": "Défenseur des développeurs Senior en IA Générative",
+    "location": "Paris, Île-de-France, France",
+    "summary": "A permis aux développeurs et aux startups d'exploiter l'IA de Gemini grâce à des conférences, des ateliers et des ressources de code complètes, faisant du Gemini Cookbook le dépôt n°1 des tendances.",
+    "description": [
+      "Développé et animé des ateliers et des conférences sur Gemini lors d'événements comme Google IO Connect, Cloud Next et les DevFests.",
+      "Géré le programme d'accès anticipé de Gemini, en sélectionnant et en soutenant des startups de premier plan et en transmettant leurs retours à l'équipe produit.",
+      "Maintenu et réorganisé le Gemini Cookbook sur GitHub, fournissant aux développeurs des exemples de code et des explications pour démarrer rapidement."
+    ],
+    "longDescription": "En tant que Défenseur des développeurs Senior en IA Générative chez Google, je suis à l'avant-garde pour outiller la communauté des développeurs avec l'IA Générative. Je crée et fournis du contenu technique engageant, y compris des ateliers approfondis et des conférences lors d'événements majeurs de l'industrie comme Google IO, Cloud Next, les DevFests, mais aussi pour des publics plus restreints comme Google for start-ups, des événements de capital-risque ou des meetups à Station F. J'ai également préparé du contenu et formé des GDE (Google Developer Experts) pour qu'ils connaissent les dernières fonctionnalités de Gemini et sachent comment en parler. Je gère aussi le programme d'accès anticipé de Gemini, en travaillant en étroite collaboration avec des startups et des influenceurs innovants pour intégrer Gemini, en leur fournissant un soutien tout en recueillant des retours essentiels pour façonner l'avenir de notre technologie. Un projet clé pour moi a été la refonte complète et la maintenance du Gemini Cookbook sur GitHub, que j'ai transformé en la ressource numéro un pour les développeurs débutant avec l'API Gemini, atteignant même la première place des tendances sur GitHub à Noël 2024."
+  },
+  {
+    "role": "Gestionnaire de comptes techniques Senior",
+    "location": "Paris, Île-de-France, France",
+    "summary": "A facilité l'intégration des développeurs de maison intelligente avec Google Home et Matter, soutenant la croissance commerciale et défendant les besoins des partenaires.",
+    "description": [
+      "Assisté les partenaires clés de la maison intelligente dans leurs intégrations 'Works with Google Home' et Matter.",
+      "Soutenu le développement commercial avec de nouvelles initiatives et proposé de nouvelles opportunités à un large éventail de partenaires.",
+      "Défendu les standards Matter et Thread.",
+      "Soutenu les chefs de produit avec des informations sur les besoins des partenaires et mon expérience personnelle."
+    ],
+    "longDescription": "Chez Google Nest, j'ai servi de pont crucial entre Google et ses partenaires de la maison intelligente. En tant que Gestionnaire de comptes techniques Senior, j'ai guidé des partenaires clés à travers le processus complexe d'intégration de leurs produits avec Google Home et le nouveau standard Matter. Cela impliquait de fournir mon expertise technique, de résoudre les problèmes d'intégration et de défendre les besoins des partenaires au sein de Google. J'ai également joué un rôle clé dans le développement commercial, en identifiant et en proposant de nouvelles opportunités stratégiques pour étendre l'écosystème de la maison intelligente et en menant les difficultés techniques et les exigences que nos partenaires pourraient avoir."
+  },
+  {
+    "role": "Responsable des tests utilisateurs",
+    "location": "Paris, Île-de-France, France",
+    "summary": "A défini la stratégie de test, recruté des testeurs et organisé des tests utilisateurs pour des jeux et des expériences, conseillant les développeurs sur la manière de rendre leurs jeux plus accessibles.",
+    "description": [
+      "Rédigé des rapports et conseillé les développeurs sur la manière de rendre leurs jeux (ex : le labyrinthe éternel) plus accessibles en fonction des retours des utilisateurs."
+    ],
+    "longDescription": "En tant que Responsable des tests utilisateurs pour Google Arts & Culture, j'étais chargé d'assurer l'utilisabilité et l'accessibilité des jeux et applications expérimentaux. J'ai conçu et mis en œuvre toute la stratégie de tests utilisateurs, du recrutement de groupes de testeurs diversifiés à l'organisation et à la conduite des sessions de test. J'ai ensuite analysé les résultats et rédigé des rapports détaillés, fournissant aux développeurs des informations exploitables pour améliorer l'expérience utilisateur et la conception des jeux."
+  },
+  {
+    "role": "Gestionnaire de comptes techniques Senior",
+    "location": "Montréal, Québec, Canada",
+    "summary": "A dirigé le lancement réussi de plus de 30 jeux en 2 ans en entretenant des relations solides avec les développeurs et en défendant l'initiative de 'portage sans modification'.",
+    "description": [
+      "Assisté les développeurs de jeux pour publier leurs jeux sur Stadia et utiliser Immersive Stream for games.",
+      "Représenté la voix des développeurs auprès des chefs de produit en charge des fonctionnalités de la plateforme.",
+      "Dirigé l'initiative de 'portage sans modification' pour amener les jeux Windows directement sur Stadia."
+    ],
+    "longDescription": "Pendant mon séjour chez Google Stadia, j'ai joué un rôle déterminant dans l'expansion de la bibliothèque de jeux de la plateforme. J'ai géré les relations avec de nombreux studios de développement de jeux vidéo (Ubisoft en particulier), les guidant de l'intégration au lancement réussi, et j'ai géré avec succès la sortie de plus de 30 titres. Une de mes plus grandes réussites a été la défense de l'initiative de 'portage sans modification', un effort technique et stratégique qui a considérablement simplifié le processus pour les développeurs d'amener leurs jeux basés sur Windows sur notre plateforme cloud. Ce fut un facteur clé dans l'expansion de notre offre de contenu."
+  },
+  {
+    "role": "Producteur Associé",
+    "location": "Québec, Canada",
+    "summary": "A dirigé une équipe de gameplay multidisciplinaire d'environ 70 personnes pour créer la nouvelle franchise 'Immortals Fenyx Rising', en appliquant les principes Agile au développement de jeux.",
+    "description": [
+      "Appliqué la philosophie Agile au développement de jeux sur ce projet, en brisant les silos et en réorganisant les équipes pour qu'elles soient multidisciplinaires (de l'art conceptuel à la programmation).",
+      "Supervisé les versions Stadia et Switch du jeu.",
+      "Administré les outils de production (Jira et autres outils internes)."
+    ],
+    "longDescription": "En tant que Producteur Associé sur la nouvelle propriété intellectuelle 'Immortals Fenyx Rising', j'ai dirigé une grande équipe multidisciplinaire d'environ 70 personnes responsables de tous les systèmes de gameplay de base. Cela incluait les mécaniques de combat, l'IA ennemie, la conception des monstres et la progression du joueur. J'ai favorisé un environnement collaboratif et agile, en brisant les silos entre les différents rôles comme les artistes conceptuels, les animateurs, les concepteurs de jeux, les artistes d'effets spéciaux, les concepteurs audio, les programmeurs, les ingénieurs en IA et le contrôle qualité. J'étais également responsable de la gestion du pipeline de production, y compris des outils comme Jira, pour m'assurer que l'équipe travaillait efficacement vers notre vision créative et respectait nos délais."
+  },
+  {
+    "role": "Chef de Production / Scrum Master",
+    "location": "Québec, Canada",
+    "summary": "Chef de production et scrum master pour les équipes techniques et de gameplay sur Assassin's Creed Odyssey.",
+    "description": [
+      "Scrum master et chef de production pour plusieurs équipes de gameplay (3C, support des quêtes, progression...).",
+      "Agit en tant que producteur sur la technologie de streaming qui est devenue Stadia, pour la sortie d'Assassin's Creed Odyssey sur cette plateforme.",
+      "Administré les outils de production (Jira et autres outils internes)."
+    ],
+    "longDescription": "En tant que membre de l'équipe de direction, mes responsabilités variaient. J'ai commencé comme coach Agile, aidant les différentes équipes à comprendre que l'agilité ne consistait pas seulement à faire des réunions debout quotidiennes, mais aussi à bien préparer leur backlog et à ne pas surestimer ce qu'elles pouvaient faire en un sprint. Pour certaines équipes, je les ai réorganisées en équipes Kanban et j'ai tenu des réunions de priorisation mensuelles avec toutes leurs parties prenantes. Mon principal fait d'armes a été d'agir en tant que chef de production d'une équipe comprenant des programmeurs pour la version en streaming d'Assassin's Creed. Cette technologie de streaming était un partenariat avec Google et est devenue plus tard Stadia."
+  },
+  {
+    "role": "Chef de projet digital",
+    "location": "Paris, France",
+    "summary": "A dirigé la transformation d'idées en produits en suivant les méthodologies Lean et Agile en tant que 'product owner' pour les entités régionales d'AXA.",
+    "description": [
+      "Assisté les entités régionales à définir leurs besoins et à isoler le 'produit minimum viable'.",
+      "Dirigé le développement d'une application mobile, 'Are you OK?', pour les seniors au Japon, qui a aidé les familles pendant le tremblement de terre de Kumamoto.",
+      "Géré un projet de coffre-fort numérique pour la Suisse, appelé 'AXA Sure', qui a été lancé avec succès quelques années plus tard."
+    ],
+    "longDescription": "En tant que membre de l'Agence Digitale, ma mission était d'aider les entités régionales d'AXA dans leurs projets numériques. J'étais l'interface entre le métier et l'équipe de développement à Barcelone. J'étais particulièrement en charge de deux projets : une application mobile appelée 'Are you OK?' qui veille sur les seniors et apporte la tranquillité d'esprit à leurs familles, et un projet d'idéation interne lauréat, d'une idée à une application réelle pour la Suisse, appelée 'AXA Sure'."
+  },
+  {
+    "role": "Chef de projet innovation - division nouvelles technologies",
+    "location": "Issy-les-Moulineaux, France",
+    "summary": "A travaillé dans une start-up interne développant des preuves de concept pour de nouveaux produits ou services, agissant en tant que product owner, chef de projet, développeur ou commercial.",
+    "description": [
+      "Mené des travaux sur la domotique, l'apprentissage automatique, l'analyse de données, les interfaces de nouvelle génération, l'IPTV et la géolocalisation intérieure.",
+      "Aidé à créer le laboratoire Big Data de l'entreprise et déposé deux brevets en domotique."
+    ],
+    "longDescription": "Notre petite équipe fonctionnait comme une start-up interne pour Bouygues Telecom, développant des preuves de concept pour de nouveaux produits ou services pour l'entreprise. Selon le projet, j'étais soit le product owner, le chef de projet, le développeur, le vendeur, un consultant, ou tout cela à la fois. Pendant ces 4 années, j'ai travaillé sur la domotique, l'apprentissage automatique, l'analyse de données, les interfaces de nouvelle génération, l'IPTV, la géolocalisation intérieure, la fidélisation des clients, etc. J'ai également aidé à créer le laboratoire Big Data de l'entreprise et déposé deux brevets."
+  },
+  {
+    "role": "Consultant au département de la stratégie de l'entreprise",
+    "location": "Paris, France",
+    "summary": "A mené des études stratégiques sur les tendances influençant le fret ferroviaire par rapport à la route et sur la démographie de la SNCF dans le cadre d'une mission de consultant junior pour le programme MBA du Collège des Ingénieurs.",
+    "description": [
+      "Livré des études stratégiques sur les tendances du fret ferroviaire français.",
+      "Étudié l'impact du vieillissement de la population des travailleurs sur les coûts d'infrastructure."
+    ],
+    "longDescription": "Cette mission de consultant junior faisait partie de ma formation MBA au Collège des Ingénieurs. J'ai réalisé des études sur les tendances influençant le fret ferroviaire par rapport à la route et sur la démographie de la SNCF, la compagnie ferroviaire publique française, et son influence sur les coûts d'infrastructure."
+  },
+  {
+    "role": "Stagiaire",
+    "location": "Paris, France",
+    "summary": "A travaillé dans cette start-up en pleine croissance sur la manière de trouver la meilleure correspondance entre les problèmes des entreprises et les experts.",
+    "description": [],
+    "longDescription": "Cette start-up tentait de faire le lien entre les industries et les chercheurs spécialisés dans un domaine. J'ai aidé à créer un système pour trouver les meilleures correspondances."
+  },
+  {
+    "role": "Professeur d'informatique",
+    "location": "Paris, France",
+    "summary": "A enseigné les bases de l'informatique à de futurs ingénieurs de haut niveau (en langage Maple).",
+    "description": [
+      "Enseigné les fondamentaux de la programmation en Maple à des étudiants en classes préparatoires aux concours des écoles d'ingénieurs."
+    ],
+    "longDescription": "Pendant mes études à l'ENS, j'ai assumé le rôle de professeur d'informatique dans un autre lycée prestigieux, le Lycée Louis-Le-Grand. J'ai enseigné les fondamentaux de la programmation en utilisant le langage Maple à des étudiants en classes préparatoires, les préparant à leurs concours d'entrée en écoles d'ingénieurs."
+  },
+  {
+    "role": "Interrogateur en mathématiques",
+    "location": "Lyon, France",
+    "summary": "Interrogation d'étudiants de classes préparatoires sur les mathématiques de niveau universitaire.",
+    "description": [
+      "Mené des interrogations orales ('khôlles') pour les étudiants de préparatoires sur des concepts de mathématiques de niveau universitaire."
+    ],
+    "longDescription": "En tant qu'interrogateur, j'étais responsable de la conduite des 'khôlles', qui sont des interrogations orales courantes dans le système des classes préparatoires françaises. J'interrogeais les étudiants sur des concepts de mathématiques avancés de niveau universitaire pour tester leur compréhension et les préparer à leurs examens."
+  },
+  {
+    "role": "Stagiaire dans un laboratoire de robotique",
+    "location": "Tsukuba, Japon",
+    "summary": "A mené des recherches sur la stabilité des robots avec des points de contact non coplanaires.",
+    "description": [
+      "Recherché la stabilité des robots avec des points de contact non coplanaires dans un laboratoire de robotique japonais de premier plan."
+    ],
+    "longDescription": "Lors d'un stage à l'AIST (Institut National des Sciences et Technologies Industrielles Avancées) à Tsukuba, au Japon, j'ai travaillé dans un laboratoire de robotique. Mes recherches se sont concentrées sur un problème fondamental en robotique : l'analyse de la stabilité des robots lorsque leurs points de contact avec une surface ne sont pas parfaitement alignés sur un même plan."
+  }
+]
