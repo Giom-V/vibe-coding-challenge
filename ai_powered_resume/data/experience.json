@@ -1,0 +1,264 @@
+[
+  {
+    "role": "GenAI Senior Developer Advocate",
+    "company": "Google",
+    "period": "Since June 2024",
+    "location": "Paris, Île-de-France, France",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1024px-Google_%22G%22_logo.svg.png",
+    "summary": "Empowered developers and startups to leverage Gemini AI through talks, workshops, and comprehensive code resources, making the Gemini Cookbook the #1 trendy repo.",
+    "description": [
+      "Developed and delivered workshops and talks on Gemini at events like Google IO Connect, Cloud Next and DevFests.",
+      "Managed the Gemini Early Access Program, selecting and supporting top-tier startups and channeling their feedback to the product team.",
+      "Maintained and reorganized the Gemini Cookbook on GitHub, providing developers with code examples and explanations to quickly get started."
+    ],
+    "longDescription": "As a GenAI Senior Developer Advocate at Google, I'm at the forefront of empowering the developer community with Generative AI. I create and deliver engaging technical content, including in-depth workshops and talks at major industry events like Google IO, Cloud Next, DevFests, but also smaller audiences like Google for start-ups, VC events or Station F meetups. I also prepared content and trained GDEs (Google developer experts) so taht they know what the latest Gemini features are and how to talk about them. I also manage the Gemini Early Access Program, working closely with innovative startups and influencers to integrate Gemini, providing them with support while gathering essential feedback to shape the future of our technology. A key project for me was the complete overhaul and maintenance of the Gemini Cookbook on GitHub, which I transformed into the top resource for developers starting with the Gemini API, even reaching #1 on GitHub trending for Christmas 2024.",
+    "geminiPrompts": [
+      "prompts.impact_on_cookbook",
+      "prompts.describe_eap_role",
+      "prompts.tell_about_workshops"
+    ],
+    "keyAchievements": [
+      "Propelled the Gemini Cookbook to become the #1 trendy repository on GitHub during Christmas 2024.",
+      "Successfully managed the Gemini Early Access Program, onboarding and supporting top-tier startups, growing from 50 to nearly 1000 participants in a year and running new previews every other week.",
+      "Delivered high-impact workshops and talks at major developer events like Google IO Connect, Cloud Next and DevFests. 10 talks in H2 2025 so nearly one per week."
+    ]
+  },
+  {
+    "role": "Senior Technical Account Manager",
+    "company": "Google Nest",
+    "period": "September 2023 to July 2024",
+    "location": "Paris, Île-de-France, France",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Google_Nest_logo.png/330px-Google_Nest_logo.png",
+    "summary": "Facilitated smart home developers' integration with Google Home and Matter, supporting business growth and advocating for partner needs.",
+    "description": [
+      "Assisted smart home key partners with their 'Works with Google Home' and Matter integrations.",
+      "Supported Business Development with new initiatives and pitched new opportunities to a wide range of partners.",
+      "Advocated for the Matter and Thread standards.",
+      "Supported Product Managers with insights on partner needs and personal experience."
+    ],
+    "longDescription": "At Google Nest, I served as a crucial bridge between Google and its smart home partners. As a Senior Technical Account Manager, I guided key partners through the complex process of integrating their products with Google Home and the new Matter standard. This involved providing my technical expertise, resolving integration issues, and advocating for partner needs within Google. I also played a key role in business development, identifying and pitching new strategic opportunities to expand the smart home ecosystem. and spearheading the techincal difficulties and requirements our partners might have.",
+    "geminiPrompts": [
+      "prompts.contribution_to_matter",
+      "prompts.business_dev_role",
+      "prompts.technical_support_function"
+    ],
+    "keyAchievements": [
+      "Played a key role in accelerating the adoption of the Matter standard across partner devices.",
+      "Successfully advocated for partner needs, leading to tangible improvements in developer tools and documentation.",
+      "Supported Business Development by identifying and pitching new strategic integration opportunities."
+    ]
+  },
+  {
+    "role": "User tests manager",
+    "company": "Google Arts & Culture",
+    "period": "January 2023 to September 2023",
+    "location": "Paris, Île-de-France, France",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Arts_%26_Culture_Logo.svg/250px-Arts_%26_Culture_Logo.svg.png",
+    "summary": "Defined testing strategy, recruited testers and organized user tests for games and experiments, advising developers on how to make their games more accessible.",
+    "description": [
+      "Wrote reports and advised developers on how to make their games (ex: the forever labyrinth) more accessible based on user feedback."
+    ],
+    "longDescription": "As a User Tests Manager for Google Arts & Culture, I was responsible for ensuring the usability and accessibility of experimental games and applications. I designed and implemented the entire user testing strategy, from recruiting diverse groups of testers to organizing and conducting test sessions. I then analyzed the results and authored detailed reports, providing developers with actionable insights to improve user experience and game design.",
+    "geminiPrompts": [],
+    "keyAchievements": [
+        "Delivered actionable reports that led to measurable improvements in game accessibility and user experience, one of them being the forever labyrinth.",
+        "Established the complete user testing strategy from the ground up for experimental games."
+    ]
+  },
+  {
+    "role": "Senior Technical Account Manager",
+    "company": "Google Stadia",
+    "period": "April 2020 to January 2023",
+    "location": "Montreal, Quebec, Canada",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stadia_logo.svg/1024px-Stadia_logo.svg.png",
+    "summary": "Led the successful launch of over 30 games in 2 years by maintaining strong relationships with developers and championing the 'no-change porting' initiative.",
+    "description": [
+      "Assisted game developers with shipping their games on Stadia and using Immersive Stream for games.",
+      "Represented the voice of the developers to the PMs in charge of platform features.",
+      "Led the 'no-change porting' initiative to bring Windows games directly to Stadia."
+    ],
+    "longDescription": "During my time at Google Stadia, I was instrumental in growing the platform's game library. I managed relationships with numerous video game development studios (Ubisoft in particular), guiding them from onboarding to successful launch, and successfully managed the release of over 30 titles. A major achievement for me was championing the 'no-change porting initiative,' a technical and strategic effort that significantly simplified the process for developers to bring their Windows-based games to our cloud platform. This was a key factor in expanding our content offerings.",
+    "geminiPrompts": [
+      "prompts.no_change_porting",
+      "prompts.manage_partner_relations",
+      "prompts.role_in_game_launches"
+    ],
+    "keyAchievements": [
+      "Managed the successful launch of over 30 titles on the Stadia platform in under 2 years. Some of them were kind enough to add me in their credits.",
+      "Spearheaded the 'no-change porting initiative,' drastically reducing onboarding time for new games.",
+      "Served as the primary advocate for development partners, influencing platform features and priorities during monthly reviews with all the product and release teams."
+    ]
+  },
+  {
+    "role": "Associate Producer",
+    "company": "Ubisoft Québec",
+    "project": "Immortals Fenyx Rising",
+    "period": "October 2018 to April 2020",
+    "location": "Québec, Canada",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/812px-Ubisoft_logo.svg.png",
+    "summary": "Led a multidisciplinary gameplay team of ~70 people to create the new franchise 'Immortals Fenyx Rising', applying Agile principles to game development.",
+    "description": [
+      "Applied the Agile philosophy to game development on this project, breaking silos and reorganizing teams to be multidisciplinary (from concept art to programming).",
+      "Oversaw the Stadia and Switch versions of the game.",
+      "Administered production tools (Jira and other internal tools)."
+    ],
+    "longDescription": "As an Associate Producer on the new IP 'Immortals Fenyx Rising', I led a large, multidisciplinary team of around 70 people responsible for all core gameplay systems. This included combat mechanics, enemy AI, monsters design, and player progression. I fostered a collaborative and agile environment, breaking down silos between different roles like concept artists, animators, game designers, FX artists, audio designers, programmers, AI engineers and quality control. I was also responsible for managing the production pipeline, including tools like Jira, to ensure the team worked efficiently towards our creative vision and met our deadlines.",
+    "geminiPrompts": [
+      "prompts.leadership_style_on_team",
+      "prompts.describe_managed_team",
+      "prompts.production_methodologies"
+    ],
+    "keyAchievements": [
+      "Led a multidisciplinary gameplay team of approximately 70 people in the creation of a new AAA franchise.",
+	  "Managed to build a AAA game with only six months of development and over 30 monsters.",
+      "Successfully implemented Agile principles, breaking down silos and improving team collaboration. We would never have been able to ship so many creatures otherwise.",
+      "Oversaw the development and successful launch of the Stadia and Nintendo Switch versions of the game.",
+	  "Efficiently managed a Jira used by multiple teams, nearly 1000 users and tens of thousands of issues reported. I had to code my own productivity hacks."
+    ]
+  },
+  {
+    "role": "Production Manager / Scrum Master",
+    "company": "Ubisoft Québec",
+    "period": "October 2016 to October 2018",
+    "location": "Québec, Canada",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Assassins_Creed_Odyssey_logo.png/330px-Assassins_Creed_Odyssey_logo.png",
+    "summary": "Production manager and scrum master for technical and gameplay teams on Assassin's Creed Odyssey.",
+    "description": [
+      "Scrum master and production manager for multiple gameplay teams (3Cs, quests support, progression...).",
+      "Acted as producer on the streaming technology that became Stadia, for the release of Assassin's Creed Odyssey on this platform.",
+      "Administered production tools (Jira and other internal tools)."
+    ],
+    "longDescription": "As part of the management team, my responsibilities varied. I started as an Agile coach, helping the different team to understand taht agile was not jsut doing daily stand-ups but also properly groming their backlog and not overestimating what they could do in a sprint. For some teams I reorganized them as Kanban team and held monthly prioritization meetings with all their stakeholders. My main feat was acting as production manager of a team including programmers for the streaming version of Assassin's Creed. This streaming technology was a partnership with Google and later became Stadia.",
+    "geminiPrompts": [],
+    "keyAchievements": [
+      "Managed the production of the innovative streaming version of Assassin's Creed Odyssey.",
+      "Organized some team as kanban team when it made the more sense.",
+      "Coached multiple team into the agile mindset."
+    ]
+  },
+  {
+    "role": "Digital Project Manager",
+    "company": "AXA",
+    "period": "January 2015 to July 2016",
+    "location": "Paris, France",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/1024px-AXA_Logo.svg.png",
+    "summary": "Led the transformation of ideas into products following Lean and Agile methodologies as a 'product owner' for regional AXA entities.",
+    "description": [
+      "Assisted regional entities in defining needs and isolating the 'minimum viable product'.",
+      "Led the development of a mobile app, 'Are you OK?', for seniors in Japan, which helped families during the Kumamoto earthquake.",
+      "Managed a digital safe project for Switzerland, called 'AXA Sure' that successfully lanuched a few years later."
+    ],
+    "longDescription": "As a member of the Digital Agency, my mission was to help the regional entities of AXA in their digital projects. I was the interface between the business and the development team in Barcelona. I was particularly in charge of two projects: a mobile application called 'Are you OK?' that looks after seniors and brings peace of mind to their families, and an internal ideation project winner from an idea to an actual app for Switzerland called 'AXA Sure'.",
+    "geminiPrompts": [],
+    "keyAchievements": [
+      "Successfully launched the 'Are You OK?' mobile app in Japan, which provided real-world assistance during the Kumamoto earthquake.",
+      "Bring the AXA Sure app in Switzerland for a concept to an early access version. It had to go through a couple of pivots.",
+      "Acted as Product Owner, effectively bridging the gap between business needs and the development team in Barcelona."
+    ]
+  },
+  {
+    "role": "Innovation project manager - New technologies division",
+    "company": "Bouygues Telecom",
+    "period": "August 2010 to December 2014",
+    "location": "Issy-les-Moulineaux, France",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bouygues_Telecom_logo.svg/1024px-Bouygues_Telecom_logo.svg.png",
+    "summary": "Worked in an internal start-up developing proofs of concepts for new products or services, acting as product owner, project manager, developer, or sales.",
+    "description": [
+      "Conducted work on home automation, machine learning, data analysis, next-gen interfaces, IPTV, and indoor geolocation.",
+      "Helped creating the company's Big Data lab and registered two home automation patents."
+    ],
+    "longDescription": "Our small team operated as an internal start-up for Bouygues Telecom, developing proofs of concept for new products or services for the company. Depending on the project, I was either the product owner, the project manager, the developer, the seller, a consultant, or all of the above. During these 4 years, I worked on home automation, machine learning, data analysis, next-gen interfaces, IPTV, indoor geolocation, customer retention, etc. I also helped create the company's Big Data lab and registered two patents.",
+    "geminiPrompts": [],
+    "keyAchievements": [
+      "Co-created the company's Big Data lab, establishing a new core competency.",
+      "Registered two patents related to home automation and automatically generated tutorials.",
+      "Drove multiple proof-of-concept projects from ideation to delivery in a versatile, multi-hat role. One of them was TV interfaces you could control with your hands, another one was detecting presences in the living room using indoor geolocation and updating the TV recommendations according to the members of the family presents, another one was the first Android wear watches to control the TV, while we also made the first prototype of an Android TV set-top-box and conviced the company to be the first ones in Frnace (or even in Europe) to launch one."
+    ]
+  },
+  {
+    "role": "Consultant in the Company's strategy's department",
+    "company": "RFF (Réseau Ferré de France)",
+    "period": "September 2009 to June 2010",
+    "location": "Paris, France",
+    "logo": "",
+    "summary": "Conducted strategic studies on trends influencing rail freight vs. road and on SNCF demography as a junior consultant mission for the Collège des Ingénieurs MBA program.",
+    "description": [
+        "Delivered strategic studies on French rail freight trends.",
+        "Studied the impact of the aging population of workers on the infrastructure costs."
+    ],
+    "longDescription": "This mission as a junior consultant was part of my MBA training at the Collège des Ingénieurs. I made studies about the trends influencing rail freight versus road and about the demography of SNCF, the French public rail company, and its influence on infrastructure costs.",
+    "geminiPrompts": [],
+    "keyAchievements": [
+        "Delivered strategic studies on French rail freight trends.",
+        "Studied the impact of the aging population of workers and the delayed age of retirement on the infrastructure costs."
+    ]
+  },
+  {
+    "role": "Intern",
+    "company": "Hypios",
+    "period": "May 2009 to September 2009",
+    "location": "Paris, France",
+    "logo": "",
+    "summary": "Worked in this growing start-up on how to find the best match between companies' issues and experts.",
+    "description": [],
+    "longDescription": "This start-up was trying to bridge between industries and researchers specialized in a field. I helped creating a system to find the best matches.",
+    "geminiPrompts": [],
+    "keyAchievements": [
+        "Contributed to the core business of a growing startup focused on open innovation and expert problem-solving."
+    ]
+  },
+  {
+    "role": "Computer science teacher",
+    "company": "Lycée Louis-Le-Grand",
+    "period": "September 2006 to June 2009",
+    "location": "Paris, France",
+    "logo": "",
+    "summary": "Taught the basics of computer science to future top engineers (in Maple language).",
+    "description": [
+      "Taught programming fundamentals in Maple to students in preparatory classes for engineering school entrance exams."
+    ],
+    "longDescription": "While studying at ENS, I took on the role of a computer science teacher at another prestigious high school, Lycée Louis-Le-Grand. I taught programming fundamentals using the Maple language to students in the preparatory classes, preparing them for their engineering school entrance exams.",
+    "geminiPrompts": [
+      "prompts.what_is_preparatory_class"
+    ],
+    "keyAchievements": [
+      "Taught programming fundamentals to students in a highly competitive preparatory class environment."
+    ]
+  },
+  {
+    "role": "Assistant-teacher in mathematics",
+    "company": "Lycée Aux Lazaristes",
+    "period": "September 2005 to June 2006",
+    "location": "Lyon, France",
+    "logo": "",
+    "summary": "Interrogation of prep school students about university level mathematics.",
+    "description": [
+      "Conducted oral examinations ('khôlles') for preparatory students on university-level mathematics concepts."
+    ],
+    "longDescription": "As an assistant-teacher, I was responsible for conducting 'khôlles', which are oral examinations common in the French preparatory class system. I would quiz students on advanced, university-level mathematics concepts to test their understanding and prepare them for their exams.",
+    "geminiPrompts": [
+      "prompts.what_is_preparatory_class"
+    ],
+    "keyAchievements": [
+      "Conducted 'khôlles' (oral examinations) to prepare students for the rigorous entrance exams of top engineering schools."
+    ]
+  },
+  {
+    "role": "Intern in a robotic laboratory",
+    "company": "AIST",
+    "period": "April 2007 to September 2007",
+    "location": "Tsukuba, Japan",
+    "logo": "",
+    "summary": "Conducted research on the stability of robots with non-coplanar contact points.",
+    "description": [
+      "Researched the stability of robots with non-coplanar contact points in a leading Japanese robotics lab."
+    ],
+    "longDescription": "During an internship at AIST (National Institute of Advanced Industrial Science and Technology) in Tsukuba, Japan, I worked in a robotics laboratory. My research focused on a fundamental problem in robotics: analyzing the stability of robots when their points of contact with a surface are not perfectly aligned on a single plane.",
+    "geminiPrompts": [
+      "prompts.aist_research_details"
+    ],
+    "keyAchievements": [
+      "Conducted novel research on robot stability with non-coplanar contact points at a leading national institute."
+    ]
+  }
+]

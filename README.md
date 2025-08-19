@@ -4,9 +4,9 @@ Welcome to my "Vibe-Coded App Challenge 2025"! This repository documents my jour
 
 ## What is "Vibe Coding"?
 
-"Vibe coding" is a new term used to describe the process of building software in close collaboration with AI. It's a partnership where I provide the high-level vision, the "vibe" and the AI helps with the implementation details. This could involve generating boilerplate code, suggesting algorithms, debugging complex issues, or even designing UI components. The goal is to stay in the creative flow and focus on the overall feel and functionality of the application, while letting the AI handle the more tedious aspects of coding.
+"Vibe coding" is a new term used to describe the process of building software in close collaboration with AI. It's a partnership where I provide the high-level vision, the "vibe," and the AI helps with the implementation details. This could involve generating boilerplate code, suggesting algorithms, debugging complex issues, or even designing UI components. The goal is to stay in the creative flow and focus on the overall feel and functionality of the application, while letting the AI handle the more tedious aspects of coding.
 
-Of course, the maintenance of this repo is also going to be AI-powered, with the help of [Jules](jules.google.com).
+Of course, the maintenance of this repo is also going to be AI-powered, with the help of [Jules](https://jules.google.com).
 
 ## The Challenge
 
@@ -26,14 +26,23 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 | App | Link to app | Code |
 | --- | ----------- | ---- |
+| AI-powered resume | **[Try it on AI Studio](https://bit.ly/giom-ai-resume)** | [ai_powered_resume](./ai_powered_resume/) |
 | Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)** | [audio_guide](./audio_guide/) |
 
+---
+
+### Aug 19th: AI-powered resume
+
+*   **Description:** An AI-powered resume. Don't just read it, but ask Gemini questions about me (it will know some anecdotes that are not written), tailor it according to the role you want to propose to me or even ask for an audio overview.
+*   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Gemini TTS](https://deepmind.google/models/gemini/).
+*   **[Try it on AI Studio](https://bit.ly/giom-ai-resume)**
+*   **Project folder:** [ai_powered_resume](./ai_powered_resume/)
 ---
 
 ### Aug 1st: Audio Guide for Family Holidays
 
 *   **Description:** An app that provides audio guides for family holidays.
-*   **AI Tools Used:** [AI Studio](ai.studio/apps) and [Gemini TTS](https://deepmind.google/models/gemini/).
+*   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Gemini TTS](https://deepmind.google/models/gemini/).
 *   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)**
 *   **Project folder:** [audio_guide](./audio_guide/)
 

@@ -1,0 +1,102 @@
+
+{
+  "name": "Guillaume Vernade",
+  "title": "Senior DevRel Engineer",
+  "company": "Google Deepmind",
+  "images": [
+    "https://drive.google.com/file/d/1IoqfRybMyTMdV_s6iplIQqMI3u5XTdFM/view?usp=drive_link",
+    "https://drive.google.com/file/d/1re8LlFKx7pmerVFQxhYDm9mjIDehfnWj/view?usp=drive_link",
+    "https://drive.google.com/file/d/1uvGyI0qBCf42IoO8VkwFg6mqSaffmHND/view?usp=drive_link"
+  ],
+  "conferenceImages": [
+    "https://drive.google.com/uc?export=view&id=1-B_Vl4Z8fU4zP9YqZ6J8c7K0l8H6a-q_",
+    "https://drive.google.com/uc?export=view&id=1-FmR8m_j-2i8j9tL6bH4o9W0pC9j_k-W",
+    "https://drive.google.com/uc?export=view&id=1-J6k_kL7j_m8H9xO2p_fG8n0d4X7l_rY"
+  ],
+  "bio": [
+    "I'm a highly accomplished and versatile leader with over 15 years of experience in project, product, and technical account management, now specializing in Generative AI. I excel at bridging the gap between technical and business domains, leading multidisciplinary teams through complex development cycles, and driving innovation from concept to market.",
+    "I'm passionate about leveraging cutting-edge technology to solve intricate problems and deliver exceptional user experiences.",
+    "If you believe that we would work great together and mutually enhance each other, feel free to contact me :)"
+  ],
+  "contact": {
+    "email": "guillaume@vernade.fr",
+    "phone": "+33 (0)6.28.92.19.40",
+    "linkedin": "https://www.linkedin.com/in/guillaumevernade/",
+    "github": "https://github.com/Giom-V"
+  },
+  "details": {
+    "age": "40 years old"
+  },
+  "skills": {
+    "technical": [
+      { "name": "Generative AI", "rating": 5 },
+      { "name": "Algorithms", "rating": 4 },
+      { "name": "Python", "rating": 4 },
+      { "name": "Computer Science", "rating": 5 },
+      { "name": "Internet of Things", "rating": 3 },
+      { "name": "Android / Java", "rating": 3 },
+      { "name": "Data Analysis", "rating": 3 },
+      { "name": "Web Development", "rating": 3 },
+      { "name": "Statistics", "rating": 2 }
+    ],
+    "languages": [
+      { "name": "French", "rating": 5 },
+      { "name": "English", "rating": 5 }
+    ],
+    "management": [
+      { "name": "Product management", "rating": 5 },
+      { "name": "Project Management", "rating": 5 },
+      { "name": "Partner management", "rating": 5 },
+      { "name": "People management", "rating": 4 },
+      { "name": "Scrum and agile", "rating": 5 },
+      { "name": "Rapid Prototyping", "rating": 4 },
+      { "name": "Lean Software", "rating": 3 },
+      { "name": "Design thinking", "rating": 4 }
+    ]
+  },
+  "interests": {
+      "sports": ["Scuba diving", "Skiing"],
+      "travelling": "Whenever and wherever I can",
+      "other": [
+          { "name": "Digital photography (bird watching)" },
+          { "name": "Home automation", "url": "https://github.com/Giom-V/Home-assistant" }
+      ]
+  },
+  "certifications": [
+      { "name": "Product Manager", "icon": "fa-solid fa-award" },
+      { "name": "Professional Scrum Master", "icon": "fa-solid fa-award" },
+      { "name": "UX level 1", "icon": "fa-solid fa-award" }
+  ],
+  "values": [
+    {
+      "name": "Transparency",
+      "icon": "fa-solid fa-eye",
+      "summary": "I believe in open communication and sharing information clearly, both the good and the bad. It builds trust and leads to better outcomes.",
+      "details": "Example of transparency: During the Stadia 'no-change porting' initiative, I was upfront with partners about the technical limitations and potential risks, which allowed us to collaboratively find solutions instead of facing last-minute surprises. This built long-term trust even when the news wasn't always positive."
+    },
+    {
+      "name": "Teamwork",
+      "icon": "fa-solid fa-users",
+      "summary": "Success is a team sport. I thrive on collaboration, valuing every team member's contribution to achieve a common goal.",
+      "details": "Example of teamwork: On 'Immortals Fenyx Rising', I championed reorganizing teams to be multidisciplinary. This broke down silos between artists, programmers, and designers, leading to a more cohesive and creative gameplay experience. We solved problems faster because everyone felt ownership of the final product."
+    },
+    {
+      "name": "Trust",
+      "icon": "fa-solid fa-handshake",
+      "summary": "Trust is the foundation of any great team. I empower my colleagues by trusting their expertise and giving them the autonomy to excel.",
+      "details": "Example of trust: When managing the Gemini Early Access Program, I trusted the selected startups to provide high-quality feedback. Instead of micromanaging, I provided them with the tools and access they needed and listened to their insights, which directly influenced product improvements."
+    },
+    {
+      "name": "Sensible Processes",
+      "icon": "fa-solid fa-sitemap",
+      "summary": "Processes should serve the team, not the other way around. I advocate for agile, lightweight processes that remove obstacles and accelerate progress.",
+      "details": "Example of sensible processes: While at Ubisoft, instead of rigidly sticking to a waterfall model, I introduced agile principles to the 'Immortals' team. We used Scrum to adapt to creative changes quickly, which was essential for developing a new IP. The process helped us, it didn't hinder us."
+    },
+    {
+      "name": "Fun",
+      "icon": "fa-solid fa-gamepad",
+      "summary": "A positive and enjoyable work environment is key to creativity and productivity. We spend a lot of time at work, so we might as well have fun doing it!",
+      "details": "Example of fun: While the work was intense on Stadia, I made sure to organize team events and celebrate small wins. This created a positive atmosphere where developers felt comfortable sharing ideas and weren't afraid to experiment, which is crucial when working on a new and challenging platform."
+    }
+  ]
+}
