@@ -1,0 +1,127 @@
+{
+  "app": {
+    "loading": "Loading Interactive Resume...",
+    "translating": "Translating content...",
+    "translation_error": "Sorry, I couldn't translate to {language}. Please try again."
+  },
+  "header": {
+    "company_at": "at {company}",
+    "audio_overview_title": "Generate Audio Overview",
+    "select_focus_overall": "Overall Career",
+    "select_focus_genai": "Generative AI Expertise",
+    "select_focus_pm": "Product Management",
+    "select_focus_videogame": "Video Game Industry",
+    "generate_button": "Generate",
+    "generating_button": "Generating..."
+  },
+  "sections": {
+    "experience": "Experiences",
+    "talks": "Talks & Workshops",
+    "skills": "Skills",
+    "education": "Education",
+    "interests": "Interests",
+    "certifications": "Certifications",
+    "values": "My Values"
+  },
+  "experience_section": {
+    "view_compact": "Compact",
+    "view_detailed": "Detailed",
+    "related_links_title": "Related Links (from Google Search):",
+    "ask_button": "Ask Gemini for Details",
+    "see_more_details": "See more details",
+    "ai_relevance_summary_title": "AI Relevance Summary"
+  },
+  "talks_section": {
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "view_details": "View Details"
+  },
+  "skills_section": {
+    "technical": "Technical",
+    "languages": "Languages",
+    "management": "Management",
+    "ai_relevance_summary_title": "AI Relevance Summary"
+  },
+  "education_section": {
+    "ask_button": "Ask Gemini",
+    "see_more_details": "See more details",
+    "ai_relevance_summary_title": "AI Relevance Summary"
+  },
+  "values_section": {
+    "ask_button": "Ask about this value",
+    "ai_relevance_summary_title": "AI Relevance Summary"
+  },
+  "interests_section": {
+    "sports": "Sports",
+    "travelling": "Travelling",
+    "other": "Other"
+  },
+  "language_switcher": {
+    "placeholder": "Language...",
+    "en": "EN",
+    "fr": "FR"
+  },
+  "global_ask_button": {
+    "label": "Ask about Guillaume"
+  },
+  "tailor_resume": {
+    "button_label": "Tailor Resume for Job",
+    "reset_button_label": "Reset View",
+    "modal_title": "Tailor Resume with AI",
+    "modal_intro": "Paste a job description below to see how Guillaume's experience aligns with the role.",
+    "modal_placeholder": "e.g., Seeking a Senior Developer Advocate with experience in Generative AI, Python, and community engagement...",
+    "modal_button_analyze": "Analyze & Tailor Resume",
+    "modal_button_analyzing": "Analyzing..."
+  },
+  "tooltip": {
+    "tell_me_more": "Tell me more"
+  },
+  "modal": {
+    "suggestions": "Suggestions",
+    "or": "OR",
+    "custom_question_label": "Ask your own question",
+    "custom_question_placeholder": "e.g., How did Guillaume handle challenges on the Stadia project?",
+    "ask_button": "Ask Gemini",
+    "thinking": "Gemini is thinking...",
+    "you_asked": "You asked:",
+    "about_role_at": "About the role at {company}",
+    "about_education_at": "About my education at {institution}",
+    "ask_anything_title": "Ask Anything About Guillaume's Profile",
+    "about_tooltip_title": "About: {term}",
+    "about_value_title": "About my value: {value}"
+  },
+  "prompts": {
+    "aist_research_details": "Tell me more about Guillaume's research at AIST.",
+    "business_dev_role": "What was Guillaume's business development role?",
+    "cdi_philosophy": "What is the CDI's teaching philosophy?",
+    "cdi_learnings": "What did Guillaume learn at the Collège des Ingénieurs?",
+    "contribution_to_matter": "How did Guillaume contribute to the Matter ecosystem?",
+    "describe_eap_role": "Describe Guillaume's role in the Early Access Program.",
+    "describe_fellow_program": "Describe the 'Fellow' program Guillaume attended.",
+    "describe_managed_team": "Describe the team Guillaume managed.",
+    "describe_mva_program": "Describe the MVA Master program Guillaume completed.",
+    "ens_entry_difficulty": "How hard is it to enter in ENS?",
+    "ens_famous_for": "What is ENS famous for in computer science?",
+    "experience_with": "What experience does Guillaume have with...",
+    "explain_role": "Explain what a \"{role}\" does.",
+    "good_fit_for": "Would Guillaume be a good fit for the role of...",
+    "impact_on_cookbook": "What was Guillaume's impact on the Gemini Cookbook?",
+    "leadership_style_on_team": "What was Guillaume's leadership style on this team?",
+    "manage_partner_relations": "How did Guillaume manage partner relationships?",
+    "no_change_porting": "Tell me more about the 'no-change porting initiative' Guillaume led.",
+    "production_methodologies": "What production methodologies were used on Guillaume's project?",
+    "remote_work": "Is Guillaume open to remote work?",
+    "role_in_game_launches": "What was Guillaume's role in game launches?",
+    "technical_support_function": "Explain Guillaume's technical support function.",
+    "tell_about_workshops": "Tell me about the workshops Guillaume delivered.",
+    "value_example": "Give an example of how Guillaume demonstrated '{value}'.",
+    "value_importance": "Why is '{value}' important to Guillaume?",
+    "value_in_workplace": "How does Guillaume apply '{value}' in a work environment?",
+    "what_does_degree_cover": "What does an {degree} degree typically cover?",
+    "what_is_company": "What is {company} and what do they do?",
+    "what_is_grande_ecole": "What is a French 'grande école'?",
+    "what_is_preparatory_class": "What is a French 'preparatory class'?",
+    "what_is_institution_known_for": "What is {institution} known for?",
+    "why_hire": "Why should I hire Guillaume?"
+  }
+}

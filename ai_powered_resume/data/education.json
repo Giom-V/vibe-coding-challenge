@@ -1,0 +1,51 @@
+[
+  {
+    "degree": "MBA",
+    "institution": "Collège des Ingénieurs",
+    "period": "September 2009 to July 2010",
+    "summary": "Training in management, leadership, finance and entrepreneurship in an international class with top level teachers.",
+    "description": [
+	  "Intensive training in management, leadership, finance and entrepreneurship.",
+	  "Multicultural environement with 3 cohorts from Germany, Italy and France."
+	],
+    "longDescription": "At the Collège des Ingénieurs (CDI), I completed a unique, full-time paid MBA program designed for engineers and scientists. As a 'Fellow', I undertook a strategic consulting mission within a partner company while simultaneously attending high-level management training seminars. This dual-action learning approach was invaluable for developing my skills to navigate both complex technological and business challenges.",
+    "geminiPrompts": [
+      "prompts.cdi_learnings",
+      "prompts.cdi_philosophy",
+      "prompts.describe_fellow_program"
+    ]
+  },
+  {
+    "degree": "Master's Degrees",
+    "institution": "École Normale Supérieure",
+    "period": "September 2005 to August 2009",
+    "summary": "Studied Computer Science, Economics, and Financial Mathematics, including the prestigious MVA Master and participated in various student societies.",
+    "description": [
+      "Completed the Parisian Research Master in Computer Science (MPRI).",
+      "Earned a Master's degree in Mathematics, Vision, and Learning (MVA).",
+      "Achieved a Master 1 degree in Economics (Analysis and Policy in Economics).",
+      "Led multiple student societies, serving as President of the student's association, editor-in-chief of the newspaper, manager of the students' bar and vice president of the comics festival.",
+      "Served on the board of directors as a student representative."
+    ],
+    "longDescription": "I studied at the École Normale Supérieure (ENS), one of France's most prestigious and selective 'grandes écoles', which is extremely renowned for its excellence in research and education. The curriculum emphasized research-led teaching, and I had the opportunity to pursue multiple advanced master's degrees, including the highly-regarded MVA (Mathematics, Vision, Learning) in its world-class Computer Science department.",
+    "geminiPrompts": [
+      "prompts.what_is_grande_ecole",
+      "prompts.describe_mva_program",
+      "prompts.ens_famous_for",
+      "prompts.ens_entry_difficulty"
+    ]
+  },
+  {
+    "degree": "Preparatory Class (CPGE)",
+    "institution": "Lycée Aux Lazaristes",
+    "period": "September 2002 to June 2005",
+    "summary": "Intensive scientific course preparing to a highly competitive exam that allows entrance to the Grandes Écoles.",
+    "description": [
+      "Specialized in Mathematics, Physics, and Computer Science."
+    ],
+    "longDescription": "I completed the Classes Préparatoires aux Grandes Écoles (CPGE), a demanding two-year post-secondary program that serves as an intensive preparatory course for the competitive entrance exams to France's 'grandes écoles'. The curriculum was focused on advanced science and mathematics, which built the strong theoretical foundation for my future studies.",
+    "geminiPrompts": [
+      "prompts.what_is_grande_ecole"
+    ]
+  }
+]

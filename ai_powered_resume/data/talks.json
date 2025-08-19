@@ -1,0 +1,22 @@
+
+[
+  {
+    "title": "Getting Started with the Gemini API",
+    "event": "DevFest Istanbul",
+    "date": "2024-11-23",
+    "location": "Istanbul, Turkey",
+    "url": "https://devfest.istanbul/"
+  },
+  {
+    "title": "Building Next-Gen Apps with Generative AI",
+    "event": "Google for Startups",
+    "date": "2024-09-15",
+    "location": "Paris, France"
+  },
+  {
+    "title": "Advanced Gemini: Functions, Tools, and Grounding",
+    "event": "Upcoming AI Conference",
+    "date": "2025-03-10",
+    "location": "Online"
+  }
+]

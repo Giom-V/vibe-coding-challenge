@@ -1,0 +1,6 @@
+{
+  "name": "Guillaume Vernade - AI-Powered Interactive Resume",
+  "description": "An interactive resume for Guillaume Vernade, leveraging the Gemini API to provide dynamic content, detailed experience insights, and audio summaries.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
