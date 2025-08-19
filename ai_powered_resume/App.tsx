@@ -309,7 +309,6 @@ const App: React.FC = () => {
             };
 
             const translatedContent = await translateJsonData(contentToTranslate, language);
-            
             const newProfile = JSON.parse(JSON.stringify(oProfile));
             newProfile.title = translatedContent.profile.title;
             newProfile.bio = translatedContent.profile.bio;
@@ -358,6 +357,13 @@ const App: React.FC = () => {
                 experiences: oExperiences,
                 education: oEducation,
                 values: oProfile.values || []
+            });
+
+            logInteraction({
+                type: 'resume_tailoring',
+                source: 'tailor_resume_modal',
+                prompt: jobDescription,
+                response: analysis,
             });
 
             const tailoredExperiences = oExperiences.map(exp => {
