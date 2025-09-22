@@ -26,16 +26,17 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 | App | Link to app | Code |
 | --- | ----------- | ---- |
+| Escape room | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true)** | [escape_room](./escape_room/) |
 | AI-powered resume | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1VRVKZ8qFAG6Rgc1np3u8g5eBgbmI9094?fullscreenApplet=true)** | [ai_powered_resume](./ai_powered_resume/) |
 | Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?fullscreenApplet=true)** | [audio_guide](./audio_guide/) |
 
 ---
-### Sep 2nd: Nano-banana powered espace room
+### Sep 2nd: Nano-banana powered escape room
 
-*   **Description:** A very quickly vice-coded (15mn) espace game using our new image generation model (nano-banana) to create an escape room game.
+*   **Description:** A very quickly vice-coded (15mn) escape game using our new image generation model (nano-banana) to create an escape room game.
 *   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Nano-banana](https://ai.google.dev/gemini-api/docs/image-generation).
-*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true))**
-*   **Project folder:** [ai_powered_resume](./escape_room/)
+*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true)**
+*   **Project folder:** [escape_room](./escape_room/)
 ---
 
 ### Aug 19th: AI-powered resume
