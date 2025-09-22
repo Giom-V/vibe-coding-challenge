@@ -4,7 +4,7 @@
 
 An AI-powered resume. Don't just read it, but ask Gemini questions about me (it will know some anecdotes that are not written), tailor it according to the role you want to propose to me or even ask for an audio overview.
 
-## **[Try it on AI Studio](https://bit.ly/giom-ai-resume)**
+## **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1VRVKZ8qFAG6Rgc1np3u8g5eBgbmI9094?fullscreenApplet=true)**
 
 ## Initial Prompt
 

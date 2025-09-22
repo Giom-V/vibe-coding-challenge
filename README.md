@@ -10,7 +10,7 @@ Of course, the maintenance of this repo is also going to be AI-powered, with the
 
 ## The Challenge
 
-The goal of this challenge is to explore the capabilities of modern AI in software development. Each week, I will tackle a new project, leveraging tools like Google's AI Studio, Gemini Code Assist, and other LLMs such as Claude to generate, debug, and refactor code.
+The goal of this challenge is to explore the capabilities of modern AI in software development. Each week (amended to fortnightly), I will tackle a new project, leveraging tools like Google's AI Studio, Gemini Code Assist, and other LLMs such as Claude to generate, debug, and refactor code.
 
 This experiment aims to:
 
@@ -26,16 +26,23 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 | App | Link to app | Code |
 | --- | ----------- | ---- |
-| AI-powered resume | **[Try it on AI Studio](https://bit.ly/giom-ai-resume)** | [ai_powered_resume](./ai_powered_resume/) |
-| Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)** | [audio_guide](./audio_guide/) |
+| AI-powered resume | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1VRVKZ8qFAG6Rgc1np3u8g5eBgbmI9094?fullscreenApplet=true)** | [ai_powered_resume](./ai_powered_resume/) |
+| Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?fullscreenApplet=true)** | [audio_guide](./audio_guide/) |
 
+---
+### Sep 2nd: Nano-banana powered espace room
+
+*   **Description:** A very quickly vice-coded (15mn) espace game using our new image generation model (nano-banana) to create an escape room game.
+*   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Nano-banana](https://ai.google.dev/gemini-api/docs/image-generation).
+*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true))**
+*   **Project folder:** [ai_powered_resume](./escape_room/)
 ---
 
 ### Aug 19th: AI-powered resume
 
 *   **Description:** An AI-powered resume. Don't just read it, but ask Gemini questions about me (it will know some anecdotes that are not written), tailor it according to the role you want to propose to me or even ask for an audio overview.
 *   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Gemini TTS](https://deepmind.google/models/gemini/).
-*   **[Try it on AI Studio](https://bit.ly/giom-ai-resume)**
+*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1VRVKZ8qFAG6Rgc1np3u8g5eBgbmI9094?fullscreenApplet=true)**
 *   **Project folder:** [ai_powered_resume](./ai_powered_resume/)
 ---
 
@@ -43,7 +50,7 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 *   **Description:** An app that provides audio guides for family holidays.
 *   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Gemini TTS](https://deepmind.google/models/gemini/).
-*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?showPreview=true)**
+*   **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?fullscreenApplet=true)**
 *   **Project folder:** [audio_guide](./audio_guide/)
 
 ---

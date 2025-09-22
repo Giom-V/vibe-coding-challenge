@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Escape Room",
+  "description": "A mini escape room game powered by Gemini. Explore a mysterious room, click on objects to get a closer look, and solve the puzzle to escape. All images are generated on the fly by AI.",
+  "requestFramePermissions": []
+}
