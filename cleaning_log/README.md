@@ -35,6 +35,25 @@ Les tâches non faites sont uniquement celles qui ne sont pas barrées et pas co
 "Maintenant ajoutons la sauvegarde dans google sheet. RAppel des consignes:"Le tableau doit avoir une colonne par semaine et une ligne par tâche, en prenant en compte qu'on ajoutera peut-être (sûrement) d'autres tâches au cours du temps.". On va utiliser un appscript dans le google sheet et exposer un webhook pour pouvoir y envoyer du data sans avoir besoin de s'authentifier.
 Je veux pouvoir soit les ajouter après avoir vu la première page d'analyse, ou alors avoir un bouton pour le faire directment sans checks au moment d'ajouter la photo."
 
+## Prompts translation
+"Every week, we write down the tasks for our cleaning lady on a sheet of paper, using a template where we cross out what doesn't need to be done and sometimes add a few things by hand. She then checks off what she had time to do (sometimes there's too much work for her to do everything, and that's not a problem). Here is a photo of such a sheet as an example. I would like to create an application that allows me to take a picture of these sheets after the cleaning lady has finished, and then populates a Google Sheet with the data: done/not done/not requested for each week and each task, plus a list of additional requests and her feedback if any (sometimes she notes that products are missing, for example, or that she couldn't do something). The table should have one column per week and one row per task, keeping in mind that we will probably (surely) add other tasks over time."
+
+---
+
+"First, I want the app to be in French. I want the comments, when they are present (for example, indicated by an arrow), to be linked to the task they correspond to. For example, 'use a small brush or vacuum to clean the corners and baseboards'."
+
+---
+
+"There's still a problem: several tasks are being marked as 'not done' when they were actually crossed out (in the example: 'Clean the sink and its faucet', 'Do the mirror and empty the trash can', 'Clean the dishwasher filter', 'Dust the living room furniture and knick-knacks', 'Clean the fridge (dish soap)', 'Clean the kitchen cabinet fronts', 'Clean the skylights', 'Clean the back-kitchen sink', 'Sweep the baseboards'). Tasks should only be considered 'not done' if they are neither crossed out nor checked off."
+
+---
+
+"Add an option to correct false positives by clicking on an icon to cycle them through the states: done/not done/not requested."
+
+---
+
+"Now let's add the saving to Google Sheets. A reminder of the instructions: 'The table should have one column per week and one row per task, keeping in mind that we will probably (surely) add other tasks over time.' We will use an Apps Script in the Google Sheet and expose a webhook to be able to send data to it without needing to authenticate. I want to be able to either add the data after seeing the initial analysis page, or have a button to do it directly without checks when adding the photo."
+
 ## Time Spent
 
 2 hours, but mainly because I was iterating on the script for the google sheet to make sure it would classify things the right way.
