@@ -2,7 +2,7 @@
 
 ## Description
 
-Every week, we print a list of tasks for our cleaning lady and strike the one that we don't need her to do (like cleaning the guests bathroom if there hasn't been any guests), and we're also sometimes adding comments or new tasks by hand. And then she checks what she has been able to do (most of the time everything because she's great) and sometimes add a comment like a list of household product to buy.
+Every week, we print a list of tasks for our cleaning lady and strike the ones that we don't need her to do (like cleaning the guests bathroom if there hasn't been any guests), and we're also sometimes adding comments or new tasks by hand. And then she checks what she has been able to do (most of the time everything because she's great) and sometimes add a comment like a list of household product to buy.
 
 <img src="./example/todo_menage.jpg" alt="log example" width="400"/>
 
