@@ -1,0 +1,7 @@
+{
+  "name": "[Shared]Suivi femme de ménage",
+  "description": "Une application qui utilise l'IA pour analyser une photo d'une checklist de nettoyage terminée, extrait le statut de chaque tâche et affiche les résultats dans un format structuré.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
