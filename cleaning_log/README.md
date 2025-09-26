@@ -12,18 +12,26 @@ So I build this scanner that lets me take a picture of our paper, then use Gemin
 
 ## **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true)**
 
-## Initial Prompts (in French becaus eI wanted to try vibe coding in French)
+## Initial Prompts (in French because I wanted to try vibe coding in French)  
 
 "Toutes les semaines, nous écrivons sur une feuille les taches à faire par notre femme de ménage à partir d'un template sur lequel nous barrons ce qu'il n'y a pas à faire et ajoutons aprfois quelques choses à la main. Elle coche ensuite ce qu'elle a eu le temps de faire (parfois il y a trop de travail pour qu'elle fasse tout, et ce n'est pas un problème). Voici un exemple d'une telle feuille en photo. J'aimerais faire une application qui me permette de prendre une photo de ces feuilles après le passage de la femme de ménage et qui ensuite me remplisse in table google sheet avec les données fait/pas fait/pas demandé pour chaque semaine et chaque tâche, plus liste des demandes supplémentaires et ses retours s'il y en a (parfois elle marque qu'il manque des produits par exemple ou qu'elle n'a pas pu faire quelque chose). Le tableau doit avoir une colonne par semaine et une ligne par tâche, en prenant en compte qu'on ajoutera peut-être (sûrement) d'autres tâches au cours du temps."
+
 ---
+
 "Premièrement je veux une app en Français, je veux que les commentaires, quand ils le sont (par exemple parce qu'il y a une flèche) soient liés à la tâche à laquelle ils correspondent. Par exemple "passer balayette ou petit aspirateur pour nettoyer les coins et le plinthes"."
+
 ---
+
 "Il reste un problème, plusieurs tâches sont considérées non faites alors qu'elles étaient barrées (dans l'exemple "Nettoyer le lavabo et sa robinetterie",
 "Faire le miroir et vider la poubelle", "Nettoyer le filtre du lave-vaisselle", "Dépoussiérer les meubles du salon et bibelots", "Nettoyer le frigo (produit vaisselle)", "Nettoyer les façades des placards de la cuisine", "Nettoyer les velux", "Nettoyer l'évier de l'arrière-cuisine", "Passer la balayette sur les plaintes").
 Les tâches non faites sont uniquement celles qui ne sont pas barrées et pas cochées."
+
 ---
+
 "Ajoute une option pour corriger les faux positifs en cliquant sur l'icone pour les faire passer de fait/non-fait/non demandé."
+
 ---
+
 "Maintenant ajoutons la sauvegarde dans google sheet. RAppel des consignes:"Le tableau doit avoir une colonne par semaine et une ligne par tâche, en prenant en compte qu'on ajoutera peut-être (sûrement) d'autres tâches au cours du temps.". On va utiliser un appscript dans le google sheet et exposer un webhook pour pouvoir y envoyer du data sans avoir besoin de s'authentifier.
 Je veux pouvoir soit les ajouter après avoir vu la première page d'analyse, ou alors avoir un bouton pour le faire directment sans checks au moment d'ajouter la photo."
 
