@@ -1,14 +1,14 @@
-# Cleaning log digitilizer
+# Cleaning log digitizer
 
 ## Description
 
-Every week, we print a list of tasks for our cleaning lady and strike the one that we don't need her to do (like cleaning the guests bathroom if there hasn't been any guests), and we're also sometimes addeing comments or new tasks by hand. And then she checks what she has been able to do (most of the time everything because she's great) and sometimes add a comment like a list of household product to buy.
+Every week, we print a list of tasks for our cleaning lady and strike the one that we don't need her to do (like cleaning the guests bathroom if there hasn't been any guests), and we're also sometimes adding comments or new tasks by hand. And then she checks what she has been able to do (most of the time everything because she's great) and sometimes add a comment like a list of household product to buy.
 
 <img src="./example/todo_menage.jpg" alt="log example" width="400"/>
 
-I wanted a way to keep track of what was cleaned and the different notes with the ulterior motive to maybe add remininders if we haven'T cleaned the windows for months for example.
+I wanted a way to keep track of what was cleaned and the different notes with the ulterior motive to maybe add reminders if we haven'T cleaned the windows for months for example.
 
-So I build this scanner that let's met take a picture of our paper, then use Gemini to understand what's the tasks that were done or not, and send them to a google sheet.
+So I build this scanner that lets me take a picture of our paper, then use Gemini to understand what's the tasks that were done or not, and send them to a google sheet.
 
 ## **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true)**
 
