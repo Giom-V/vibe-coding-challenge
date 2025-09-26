@@ -1,4 +1,4 @@
-# Audio Guide for Family Holidays
+# Nano-banana powered escape room
 
 ## Description
 

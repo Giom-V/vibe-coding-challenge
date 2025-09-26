@@ -31,6 +31,14 @@ Projects are organized by week in reverse chronological order. Each project fold
 | Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?fullscreenApplet=true)** | [audio_guide](./audio_guide/) |
 
 ---
+### Sep 26th: Cleaning log scanner
+
+*   **Description:** An app to digitalize the [paper log](./cleaning_log/example/todo_menage.jpg) of my cleaning lady using Gemini  visual understanding
+*   **AI Tools Used:** [AI Studio](https://ai.studio/apps) and [Gemini Visual Understanding](https://ai.google.dev/gemini-api/docs/image-understanding).
+*   **[Try it on AI Studio](https://ai.studio/apps/drive/1FH1F_qoepoiRB7AjUPtqcSIjx1ldU-F_?fullscreenApplet=true)**
+*   **Project folder:** [cleaning_log](./cleaning_log/)
+
+---
 ### Sep 2nd: Nano-banana powered escape room
 
 *   **Description:** A very quickly vice-coded (15mn) escape game using our new image generation model (nano-banana) to create an escape room game.
