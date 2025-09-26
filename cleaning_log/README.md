@@ -56,6 +56,10 @@ This is typically what vibe coding is great for: quickly spinning up an app to f
 3. Run the app:
    `npm run dev`
 
+## Google Sheet integration
+
+I had Gemini (directly in AI Studio) wtrite an [Apps script](https://developers.google.com/apps-script) for the Google sheet where I am storing my data that exposes a webhook that the App is using to send data to the sheet. The code and the explanations on how to use it is in the [appscript.js](./appscript.js) file. 
+
 ## To Do
 
 For once I'm pretty happy with my app so I'm not really planning on adding any new features. Once that I missed was the ability to batch add multiple images to scan them at the same time, but now that I've been through all my stack I don't really need that feature. I will also need to test future Gemini models in the hope that they will be better at seeing what's striked-through.
