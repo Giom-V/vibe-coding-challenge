@@ -10,7 +10,7 @@ I wanted a way to keep track of what was cleaned and the different notes with th
 
 So I build this scanner that lets me take a picture of our paper, then use Gemini to understand what's the tasks that were done or not, and send them to a google sheet.
 
-## **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true)**
+## **[Try it on AI Studio](https://ai.studio/apps/drive/1FH1F_qoepoiRB7AjUPtqcSIjx1ldU-F_?fullscreenApplet=true)**
 
 ## Initial Prompts (in French because I wanted to try vibe coding in French)  
 
