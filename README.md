@@ -26,6 +26,7 @@ Projects are organized by week in reverse chronological order. Each project fold
 
 | App | Link to app | Code |
 | --- | ----------- | ---- |
+| Cleaning log scanner | **[Try it on AI Studio](https://ai.studio/apps/drive/1FH1F_qoepoiRB7AjUPtqcSIjx1ldU-F_?fullscreenApplet=true)** | [cleaning_log](./cleaning_log/) |
 | Escape room | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1ZifLzSuOqzg3Ita9CC7kmRweauVanCy7?fullscreenApplet=true)** | [escape_room](./escape_room/) |
 | AI-powered resume | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1VRVKZ8qFAG6Rgc1np3u8g5eBgbmI9094?fullscreenApplet=true)** | [ai_powered_resume](./ai_powered_resume/) |
 | Audio Guide for Family Holidays | **[Try it on AI Studio](https://aistudio.google.com/apps/drive/1SgDNQ_mHx_k2KOJm1vIrIX8nIVwS3btT?fullscreenApplet=true)** | [audio_guide](./audio_guide/) |
